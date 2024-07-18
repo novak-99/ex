@@ -29,9 +29,8 @@ It is defined as follows:
 
 The function may be used as follows: 
 
-.. highlight:: cpp
 .. code-block:: cpp
-
    Complex z = 1.0
    std::cout << gamma(z) << "\n";
-0.498016 - 0.15495j
+.. code-block:: console
+    0.498016 - 0.15495j
