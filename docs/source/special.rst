@@ -1,15 +1,26 @@
 Special
 =====
 
-.. _installation:
+.. _functions:
 
-Installation
+Functions
 ------------
 
-For example:
+cpplex::gamma
+----------
+
+The gamma function is an extrapolation of the factorial to complex and decimal inputs. 
+It is defined as follows: 
+
+.. math::
+   \gamma(z) = \int_{0}^{\inf} t^{z - 1}e^{-t}dt
+
+
+The function may be used as follows: 
 
 .. code-block:: cpp
 
-   // This code is highlighted using the cpp lexer
-   void foo() { /* ... */ }
+   Complex z = 1.0
+   std::cout << gamma(z) << "\n";
+0.498016 - 0.15495j
 
