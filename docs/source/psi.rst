@@ -18,7 +18,7 @@ Psi
 
         A complex number. 
 
-The gamma function is the derivative of the natural log of the gamma function. In other words, in can be defined as:
+The gamma function is the derivative of the natural log of the gamma function. It is defined as:
 
 .. math::
    \psi(z) = \frac{\Gamma'(z)}{\Gamma(z)}
