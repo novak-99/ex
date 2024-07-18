@@ -27,7 +27,7 @@ It is defined as follows:
    \Gamma(z) = \int_{0}^{\infty} t^{z - 1}e^{-t}dt
 
 
-**Example**
+This is an exmaple
 
 .. code-block:: cpp
    Complex z = 1.0 + 1_j;
