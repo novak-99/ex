@@ -34,7 +34,7 @@ for :math:`\Re(z) > 1`.
 
 .. code-block:: cpp
 
-   Complex z = 2.0;
+   double z = 2.0;
    std::cout << zeta(z) << "\n";
 
 Output:
