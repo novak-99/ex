@@ -8,7 +8,7 @@ Gamma
 
    **Parameters**
 
-   .. cpp:member:: const Complex& z
+   .. cpp:member:: int z
 
       A complex number. 
 
