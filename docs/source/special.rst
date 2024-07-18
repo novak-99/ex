@@ -13,7 +13,7 @@ The gamma function is an extrapolation of the factorial to complex and decimal i
 It is defined as follows: 
 
 .. math::
-   \gamma(z) = \int_{0}^{\inf} t^{z - 1}e^{-t}dt
+   \Gamma(z) = \int_{0}^{\infty} t^{z - 1}e^{-t}dt
 
 
 The function may be used as follows: 
