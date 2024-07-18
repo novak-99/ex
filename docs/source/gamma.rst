@@ -8,13 +8,13 @@ Gamma
 
    **Parameters**
 
-   .. cpp:var:: const Complex& z
+   :cpp:var: const Complex& z
 
       A complex number. 
 
    **Returns**
 
-   .. cpp:var:: Complex
+   :cpp:var: Complex
 
       A complex number. 
 
