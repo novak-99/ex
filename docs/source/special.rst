@@ -1,7 +1,15 @@
 Special
-===
+=====
 
-.. autosummary::
-   :toctree: generated
+.. _installation:
 
-   lumache
+Installation
+------------
+
+For example:
+
+.. code-block:: cpp
+
+   // This code is highlighted using the cpp lexer
+   void foo() { /* ... */ }
+
