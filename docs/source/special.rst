@@ -14,5 +14,6 @@ Functions
    loggamma 
    rgamma
    pi
+   psi
 
 

@@ -40,4 +40,4 @@ Output:
 **References**
 
 .. [1] "Digamma function", Wikipedia,
-        https://en.wikipedia.org/wiki/Gamma_function
+        https://en.wikipedia.org/wiki/Digamma_function
