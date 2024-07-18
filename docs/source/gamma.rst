@@ -40,8 +40,8 @@ Output:
 
    0.498016 - 0.15495j
 
-References
-----------
+**References**
+
 .. [1] "Gamma function", Wikipedia,
         https://en.wikipedia.org/wiki/Gamma_function
 .. [2] "Lanczos approximation", Wikipedia,

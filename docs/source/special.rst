@@ -11,6 +11,7 @@ Functions
 .. toctree::
 
    gamma
-
+   loggamma 
+   rgamma
 
 
