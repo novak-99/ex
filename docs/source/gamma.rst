@@ -29,6 +29,7 @@ It is defined as follows:
 
 The function may be used as follows: 
 
+.. highlight:: cpp
 .. code-block:: cpp
 
    Complex z = 1.0
