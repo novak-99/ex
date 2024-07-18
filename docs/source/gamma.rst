@@ -6,11 +6,11 @@ Gamma
 
    Evaluates the gamma function for a complex input. Uses the Lanczos approximation.
 
-   **Parameters**
+**Parameters**
 
-   .. cpp:var:: const Complex& z
+.. cpp:var:: const Complex& z
 
-      A complex number. 
+    A complex number. 
 
 
 The gamma function is an extrapolation of the factorial to complex and decimal inputs. 
