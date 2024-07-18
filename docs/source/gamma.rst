@@ -27,12 +27,12 @@ It is defined as follows:
    \Gamma(z) = \int_{0}^{\infty} t^{z - 1}e^{-t}dt
 
 
-The function may be used as follows: 
+**Example**
 
 .. code-block:: cpp
    Complex z = 1.0
    std::cout << gamma(z) << "\n";
 
-::
+Output:
 
    0.498016 - 0.15495j
