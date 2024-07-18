@@ -12,12 +12,6 @@ Gamma
 
       A complex number. 
 
-   **Returns**
-
-   .. cpp:type:: Complex
-
-      A complex number. 
-
 
 The gamma function is an extrapolation of the factorial to complex and decimal inputs. 
 It is defined as follows: 
