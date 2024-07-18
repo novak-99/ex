@@ -8,9 +8,16 @@ Gamma
 
 **Parameters**
 
-.. cpp:var:: const Complex& z
+    .. cpp:var:: const Complex& z
 
-    A complex number. 
+        A complex number. 
+
+**Returns**
+
+    .. cpp:type:: Complex
+
+        A complex number. 
+
 
 
 The gamma function is an extrapolation of the factorial to complex and decimal inputs. 
