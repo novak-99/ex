@@ -1,5 +1,5 @@
 
-Gamma
+Rgamma
 =====
 
 .. cpp:function:: constexpr Complex rgamma(const Complex& z) noexcept
@@ -17,8 +17,6 @@ Gamma
     .. cpp:type:: Complex
 
         A complex number. 
-
-
 
 This function simply evaluates :math:`1/(\Gamma(z))`. 
 

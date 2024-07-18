@@ -13,5 +13,6 @@ Functions
    gamma
    loggamma 
    rgamma
+   pi
 
 

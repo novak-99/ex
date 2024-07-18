@@ -1,5 +1,5 @@
 
-Gamma
+Loggamma
 =====
 
 .. cpp:function:: constexpr Complex loggamma(const Complex& z) noexcept
@@ -17,8 +17,6 @@ Gamma
     .. cpp:type:: Complex
 
         A complex number. 
-
-
 
 This function simply evaluates :math:`\ln(\Gamma(z))`. 
 
