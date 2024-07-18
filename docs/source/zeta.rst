@@ -1,5 +1,5 @@
 
-Gamma
+Zeta
 =====
 
 .. cpp:function:: constexpr double zeta(const double x) noexcept
@@ -21,12 +21,12 @@ Gamma
 The  Riemann zeta function is an infinite series defined as: 
 
 .. math::
-   \Zeta(n) = \sum_{n = 1}^{\infty} x^{-n}
+   \zeta(n) = \sum_{n = 1}^{\infty} x^{-n}
 
 It may also be expressed as the following integral:
 
 .. math::
-   \Zeta(z) = \int_{0}^{\infty} t^{z - 1}e^{-t}dt
+   \zeta(z) = \int_{0}^{\infty} t^{z - 1}e^{-t}dt
 
 for :math:`\Re(z) > 1`. 
 
