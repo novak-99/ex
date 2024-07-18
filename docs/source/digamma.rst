@@ -29,7 +29,7 @@ The digamma function is the derivative of the natural log of the gamma function.
 .. code-block:: cpp
 
    Complex z = 1.0 + 1_j;
-   std::cout << psi(z) << "\n";
+   std::cout << digamma(z) << "\n";
 
 Output:
 
