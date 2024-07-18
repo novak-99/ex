@@ -2,6 +2,23 @@
 Gamma
 =====
 
+.. cpp:concept:: template<typename It> std::Iterator
+
+   Proxy to an element of a notional sequence that can be compared,
+   indirected, or incremented.
+
+   **Notation**
+
+   .. cpp:var:: It r
+
+      An lvalue.
+
+   **Valid Expressions**
+
+   - :cpp:expr:`*r`, when :cpp:expr:`r` is dereferenceable.
+   - :cpp:expr:`++r`, with return type :cpp:expr:`It&`, when
+     :cpp:expr:`r` is incrementable.
+
 The gamma function is an extrapolation of the factorial to complex and decimal inputs. 
 It is defined as follows: 
 
