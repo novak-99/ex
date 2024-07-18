@@ -33,5 +33,6 @@ The function may be used as follows:
    Complex z = 1.0
    std::cout << gamma(z) << "\n";
 
-.. code-block:: cpp
+::
+
    0.498016 - 0.15495j
