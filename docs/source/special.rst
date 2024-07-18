@@ -15,5 +15,6 @@ Functions
    rgamma
    pi
    psi
+   digamma
 
 
