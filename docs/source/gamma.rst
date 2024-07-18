@@ -2,22 +2,22 @@
 Gamma
 =====
 
-.. cpp:concept:: template<typename It> std::Iterator
+.. cpp:concept:: constexpr Complex gamma(const Complex& z) noexcept
 
-   Proxy to an element of a notional sequence that can be compared,
-   indirected, or incremented.
+   Evaluates the gamma function for a complex input. Uses the Lanczos approximation. 
 
-   **Notation**
+   **Parameters**
 
-   .. cpp:var:: It r
+   .. cpp:var:: const Complex& z
 
-      An lvalue.
+      A complex number. 
 
-   **Valid Expressions**
+   **Parameters**
 
-   - :cpp:expr:`*r`, when :cpp:expr:`r` is dereferenceable.
-   - :cpp:expr:`++r`, with return type :cpp:expr:`It&`, when
-     :cpp:expr:`r` is incrementable.
+   .. cpp:var:: Complex
+
+      A complex number. 
+
 
 The gamma function is an extrapolation of the factorial to complex and decimal inputs. 
 It is defined as follows: 
