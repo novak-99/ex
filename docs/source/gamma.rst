@@ -30,9 +30,10 @@ It is defined as follows:
 **Example**
 
 .. code-block:: cpp
-   Complex z = 1.0
+   Complex z = 1.0 + 1_j;
    std::cout << gamma(z) << "\n";
 
 Output:
+
 .. code-block:: cpp
    0.498016 - 0.15495j
