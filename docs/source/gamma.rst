@@ -34,5 +34,5 @@ It is defined as follows:
    std::cout << gamma(z) << "\n";
 
 Output:
-
+.. code-block:: cpp
    0.498016 - 0.15495j
