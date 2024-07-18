@@ -4,17 +4,17 @@ Gamma
 
 .. cpp:concept:: constexpr Complex gamma(const Complex& z) noexcept
 
-   Evaluates the gamma function for a complex input. Uses the Lanczos approximation. 
+   Evaluates the gamma function for a complex input. Uses the Lanczos approximation.
 
    **Parameters**
 
-   .. cpp:var:: const int& z
+   .. cpp:member:: const Complex& z
 
       A complex number. 
 
    **Parameters**
 
-   .. cpp:var:: int
+   .. cpp:var:: Complex
 
       A complex number. 
 
