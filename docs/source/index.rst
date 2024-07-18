@@ -18,5 +18,5 @@ Contents
 
 .. toctree::
 
-   Complex
-   Special
+   complex
+   special
