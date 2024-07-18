@@ -1,4 +1,4 @@
-Usage
+Complex
 =====
 
 .. _installation:
