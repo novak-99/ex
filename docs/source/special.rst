@@ -24,5 +24,6 @@ Functions
    wofz
    dawsn
    fresnel
+   li
 
 

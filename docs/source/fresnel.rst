@@ -32,7 +32,7 @@ The Fresnel integrals are defined as:
 
    Complex z = 1.0 + 1_j;
    auto [S, C] = fresnel(z);
-   std::cout << S << " " << C << "\n";
+   std::cout << S << "\n" << C << "\n";
 
 Output:
 
