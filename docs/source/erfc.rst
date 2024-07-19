@@ -18,7 +18,7 @@ Erfc
 
         A complex number. 
 
-This function simply evaluates :math:`1 - erf(z)`. 
+This function simply evaluates :math:`\DeclareMathOperator\erf{erf} 1 - erf(z)`. 
 
 
 **Example**
