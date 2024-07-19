@@ -21,6 +21,7 @@ Erf
 The erf, or error function, is a scaled, nonelementary integral commonly used in probability and statistics. It is defined as:
 
 .. math::
+   \DeclareMathOperator\erf{erf}
    \erf(z) = \frac{2}{\sqrt(\pi)} \int_{0}^{z}e^{-t^2}dt
 
 
