@@ -25,6 +25,7 @@ It is defined as follows:
    \Pi(z) = \int_{0}^{\infty} t^{z}e^{-t}dt
 
 The pi function may be written in terms of the gamma function as follows: 
+
 .. math::
    \Pi(z) = \Gamma(z + 1)
 
