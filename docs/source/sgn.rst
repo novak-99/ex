@@ -21,17 +21,15 @@ Sgn
 The sign function is the derivative of the absolute value function and is defined as:
 
 .. math::
-   
+
    \DeclareMathOperator\sgn{sgn}
 
-   \[ 
       \sgn(x) = 
       \begin{cases} 
          -1 & \text{if } x < 0 \\
          0 & \text{if } x = 0 \\
          1 & \text{if } x > 0
       \end{cases}
-   \]
 
 
 **Example**
