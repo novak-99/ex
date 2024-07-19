@@ -26,7 +26,7 @@ The  Riemann zeta function is an infinite series defined as:
 It may also be expressed as the following integral:
 
 .. math::
-   \zeta(z) = \int_{0}^{\infty} t^{z - 1}e^{-t}dt
+   \zeta(z) = \frac{1}{\Gamma(z)}\int_{0}^{\infty} \frac{t^{z - 1}}{e^t - 1} dt
 
 for :math:`\Re(z) > 1`. 
 
