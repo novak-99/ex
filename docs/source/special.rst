@@ -27,5 +27,6 @@ Functions
    li
    ei
    productlog
+   wrightomega
 
 
