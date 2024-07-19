@@ -18,7 +18,7 @@ Sigmoid
 
         A complex number. 
 
-The erf, or error function, is a scaled, nonelementary integral commonly used in machine learning and statistics. It is defined as:
+The sigmoid function is an s-shaped function commonly used in machine learning and statistics. It is defined as:
 
 .. math::
    

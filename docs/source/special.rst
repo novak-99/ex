@@ -30,5 +30,6 @@ Functions
    wrightomega
    tn
    un
+   sigmoid
 
 
