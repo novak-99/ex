@@ -18,5 +18,6 @@ Functions
    digamma
    zeta
    erf
+   erfc
 
 
