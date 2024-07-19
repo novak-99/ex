@@ -39,7 +39,7 @@ And it thereby follows that:
 
    \DeclareMathOperator\Li{Li}
    \DeclareMathOperator\li{li}
-   li(z) = Li(z) - li(2)
+   \li(z) = \Li(z) - \li(2)
 
 **Example**
 
