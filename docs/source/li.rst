@@ -23,7 +23,7 @@ The logarithmic integral is defined as:
 .. math::
    
    \DeclareMathOperator\li{li}
-   li(z) = \int_{0}^{z}\frac{dt}{\lnt}
+   \li(z) = \int_{0}^{z}\frac{dt}{\ln t}
 
 However, :math:`1/\ln(t)` has a singularity at :math:`t = 1`. This may be avoided by using the offset logarithmic integral, defined as:
 
@@ -31,7 +31,7 @@ However, :math:`1/\ln(t)` has a singularity at :math:`t = 1`. This may be avoide
    
    \DeclareMathOperator\Li{Li}
    \DeclareMathOperator\li{li}
-   Li(z) = \int_{2}^{z}\frac{dt}{\lnt} = li(z) - li(2)
+   \Li(z) = \int_{2}^{z}\frac{dt}{\ln t} = \li(z) - \li(2)
 
 And it thereby follows that:
 
