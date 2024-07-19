@@ -21,8 +21,9 @@ Sgn
 The sign function is the derivative of the absolute value function and is defined as:
 
 .. math::
-   \usepackage{amsmath}
+   
    \DeclareMathOperator\sgn{sgn}
+
    \[ 
       \sgn(x) = 
       \begin{cases} 
