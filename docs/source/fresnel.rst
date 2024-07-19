@@ -1,5 +1,5 @@
 
-Dawsn
+Fresnel
 =====
 
 .. cpp:function:: constexpr std::pair<Complex, Complex> fresnel(const Complex& z) noexcept
