@@ -25,5 +25,6 @@ Functions
    dawsn
    fresnel
    li
+   ei
 
 
