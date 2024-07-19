@@ -10,13 +10,13 @@ Erf
 
     .. cpp:var:: const Complex& z
 
-        A complex number. 
+      A complex number. 
 
 **Returns**
 
     .. cpp:type:: Complex
 
-        A complex number. 
+      A complex number. 
 
 The erf, or error function, is a scaled, nonelementary integral commonly used in probability and statistics. It is defined as:
 
