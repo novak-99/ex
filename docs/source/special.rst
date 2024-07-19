@@ -20,5 +20,6 @@ Functions
    erf
    erfc
    erfcx
+   erfi
 
 
