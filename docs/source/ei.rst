@@ -29,6 +29,8 @@ The definition can be extended to complex numbers as follows [2]_:
 .. math::
    \Ei(z) = \int_{0}^{z} \frac{e^{t} - 1}{t}dt + \frac{1}{2}(\log(z) - \log(\frac{1}{z})) + \gamma
 
+where :math:`\gamma` is the Euler–Mascheroni constant. 
+
 **Example**
 
 .. code-block:: cpp
