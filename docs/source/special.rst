@@ -22,6 +22,6 @@ Functions
    erfcx
    erfi
    wofz
-   agamma
+   dawsn
 
 
