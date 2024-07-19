@@ -18,7 +18,7 @@ Erfcx
 
         A complex number. 
 
-This function simply evaluates :math:`\DeclareMathOperator\erfc{erfc} e^{z^2} erfc(z)`. 
+This function simply evaluates :math:`\DeclareMathOperator\erfc{erfc} e^{z^2}\erfc(z)`. 
 
 
 **Example**
