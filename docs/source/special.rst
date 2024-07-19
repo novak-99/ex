@@ -28,5 +28,6 @@ Functions
    ei
    productlog
    wrightomega
+   tn
 
 
