@@ -29,5 +29,6 @@ Functions
    productlog
    wrightomega
    tn
+   un
 
 
