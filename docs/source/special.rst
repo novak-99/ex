@@ -23,5 +23,6 @@ Functions
    erfi
    wofz
    dawsn
+   fresnel
 
 

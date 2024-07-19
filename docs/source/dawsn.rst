@@ -40,5 +40,5 @@ Output:
 
 **References**
 
-.. [1] "Faddeeva function", Wikipedia,
-        https://en.wikipedia.org/wiki/Faddeeva_function
+.. [1] "Dawson function", Wikipedia,
+        https://en.wikipedia.org/wiki/Dawson_function
