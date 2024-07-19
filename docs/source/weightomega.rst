@@ -4,7 +4,7 @@ Productlog
 
 .. cpp:function:: constexpr Complex weightomega(const Complex& z) noexcept
 
-   Evaluates the wright omega function [1]_ for a complex input.
+   Evaluates the Wright omega function [1]_ for a complex input.
 
 **Parameters**
 
