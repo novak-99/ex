@@ -26,5 +26,6 @@ Functions
    fresnel
    li
    ei
+   productlog
 
 
