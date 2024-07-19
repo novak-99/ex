@@ -1,5 +1,5 @@
 
-Rgamma
+Erfc
 =====
 
 .. cpp:function:: constexpr Complex erfc(const Complex& z) noexcept
