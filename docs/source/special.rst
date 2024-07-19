@@ -22,5 +22,6 @@ Functions
    erfcx
    erfi
    wofz
+   test
 
 
