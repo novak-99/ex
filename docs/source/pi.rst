@@ -18,11 +18,15 @@ Pi
 
         A complex number. 
 
-The gamma function is an extrapolation of the factorial to complex and decimal inputs. 
+The pi function is another extrapolation of the factorial function, closely related to the gamma function. 
 It is defined as follows: 
 
 .. math::
    \Pi(z) = \int_{0}^{\infty} t^{z}e^{-t}dt
+
+The pi function may be written in terms of the gamma function as follows: 
+.. math::
+   \Pi(z) = \Gamma(z + 1)
 
 
 **Example**
