@@ -1,8 +1,8 @@
 
-Productlog
+Wrightomega
 =====
 
-.. cpp:function:: constexpr Complex weightomega(const Complex& z) noexcept
+.. cpp:function:: constexpr Complex wrightomega(const Complex& z) noexcept
 
    Evaluates the Wright omega function [1]_ for a complex input.
 
@@ -18,15 +18,15 @@ Productlog
 
         A complex number. 
 
-The lambert W function is defined as the inverse of the following function: 
+The Wright omega function is defined as the inverse of the following function: 
 
 .. math::
    f(z) = z + \log(z)
 
-For :math:`\omega = \omega(z)`, where :math:`\omega(z)` is the lambert W function, then it holds that: 
+For :math:`\omega = \omega(z)`, where :math:`\omega(z)` is the Wright omega function, then it holds that: 
 
 .. math::
-   \omega + \log(\omega) = z 
+   \omega + \log(\omega) = z \\
    \omega + \log(\omega) - z = 0
 
 Thus a numerical approximation of the Wright omega function can be found by using Newton's method [2]_ to root-find the above equation. 
@@ -36,7 +36,7 @@ Thus a numerical approximation of the Wright omega function can be found by usin
 .. code-block:: cpp
 
    Complex z = 1.0 + 1_j;
-   std::cout << weightomega(z) << "\n";
+   std::cout << wrightomega(z) << "\n";
 
 Output:
 
