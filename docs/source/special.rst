@@ -17,5 +17,6 @@ Functions
    psi
    digamma
    zeta
+   erf
 
 
