@@ -44,5 +44,5 @@ Output:
 
 **References**
 
-.. [1] "Gamma function", Wikipedia,
+.. [1] "Chebyshev polynomials", Wikipedia,
         https://en.wikipedia.org/wiki/Chebyshev_polynomials

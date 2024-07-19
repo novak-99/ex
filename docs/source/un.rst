@@ -22,8 +22,8 @@ Un
 
         A complex number. 
 
-Chebyshev polynomials of the first kind can be defined as follows:
-sin((n + 1) * acos(z))) / (sin(acos(z)));
+Chebyshev polynomials of the second kind can be defined as follows:
+
 .. math::
    T_n(z) = \frac{\sin((n + 1)\cos^{-1}(z))}{\sin(\cos^{-1}(z))}
 
@@ -34,15 +34,15 @@ sin((n + 1) * acos(z))) / (sin(acos(z)));
 
    Complex z = 1.0 + 1_j;
    int n = 1; 
-   std::cout << tn(n, z) << "\n";
+   std::cout << un(n, z) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   1 + 1j
+   2 + 2j
 
 **References**
 
-.. [1] "Gamma function", Wikipedia,
+.. [1] "Chebyshev polynomials", Wikipedia,
         https://en.wikipedia.org/wiki/Chebyshev_polynomials
