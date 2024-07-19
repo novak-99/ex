@@ -25,7 +25,7 @@ Un
 Chebyshev polynomials of the second kind can be defined as follows:
 
 .. math::
-   T_n(z) = \frac{\sin((n + 1)\cos^{-1}(z))}{\sin(\cos^{-1}(z))}
+   U_n(z) = \frac{\sin((n + 1)\cos^{-1}(z))}{\sin(\cos^{-1}(z))}
 
 
 **Example**
