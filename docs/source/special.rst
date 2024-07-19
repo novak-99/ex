@@ -21,5 +21,6 @@ Functions
    erfc
    erfcx
    erfi
+   wofz
 
 
