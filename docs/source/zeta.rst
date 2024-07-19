@@ -4,7 +4,7 @@ Zeta
 
 .. cpp:function:: constexpr double zeta(const double x) noexcept
 
-   Evaluates the Riemann zeta function [1]_ for a real input. Approximated via an integral representation [2]_. Suitable for :math:`1 < x \leq 10`.
+   Evaluates the Riemann zeta function [1]_ for a real input. Approximated via an integral representation [2]_.
 
 **Parameters**
 
