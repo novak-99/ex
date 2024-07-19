@@ -19,5 +19,6 @@ Functions
    zeta
    erf
    erfc
+   erfcx
 
 
