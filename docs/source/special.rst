@@ -31,5 +31,6 @@ Functions
    tn
    un
    sigmoid
+   sgn
 
 
