@@ -1,10 +1,10 @@
 
-Gammainc
+GammaincReg
 =====
 
-.. cpp:function:: constexpr double gammainc(const double a, const double x) noexcept
+.. cpp:function:: constexpr double gammaincReg(const double a, const double x) noexcept
 
-   Evaluates the lower incomplete gamma function [1]_.
+   Evaluates the regularized lower incomplete gamma function [1]_.
 
 **Parameters**
 
@@ -22,10 +22,10 @@ Gammainc
 
         A real number. 
 
-The lower incomplete gamma function evaluates the lower portion of the gamma integral from :math:`0` to :math:`x`. It is defined as:
+This regularized version is defined as: 
 
 .. math::
-   \gamma(a, x) = \int_{0}^{x} t^{x - 1}e^{-t}dt
+   P(a, x) = \frac{\gamma(a, x)}{\Gamma(a)}
 
 
 **Example**
@@ -34,7 +34,7 @@ The lower incomplete gamma function evaluates the lower portion of the gamma int
 
    double a = 1;
    double x = 1; 
-   std::cout << gammainc(a, x) << "\n";
+   std::cout << gammaincReg(a, x) << "\n";
 
 Output:
 

@@ -32,8 +32,9 @@ The upper incomplete gamma function evaluates the upper portion of the gamma int
 
 .. code-block:: cpp
 
+   double a = 1;
    double x = 1; 
-   std::cout << gammaincc(x) << "\n";
+   std::cout << gammaincc(a, x) << "\n";
 
 Output:
 
