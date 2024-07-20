@@ -4,7 +4,7 @@ Laplace
 
 .. cpp:function:: constexpr Complex laplace(Complex (*f)(Complex), const Complex& z, const Complex& a = 1) noexcept
 
-   Performs the Laplace integral transform on a complex function.
+   Performs the Laplace integral transform [1]_ on a complex function.
 
 **Parameters**
 
