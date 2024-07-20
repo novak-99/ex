@@ -28,7 +28,7 @@ For :math:`\omega = \omega(z)`, where :math:`\omega(z)` is the Wright omega func
 .. math::
 
    \begin{flalign}
-   z &= \omega + \log(\omega) \\
+   \omega + \log(\omega) =& z \\
    \omega + \log(\omega) - z =& 0
    \end{flalign}
 
