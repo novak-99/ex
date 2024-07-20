@@ -11,7 +11,7 @@ Functions
 .. toctree::
 
    laplace
-   hartley
+   hart
    invhartley
 
 
