@@ -27,10 +27,10 @@ For :math:`w = W(z)`, where :math:`W(z)` is the Lambert W function, then it hold
 
 .. math::
 
-   \begin{align*}
+   \begin{flalign*}
    we^w &= z \\
    we^w - z &= 0
-   \end{align*}
+   \end{flalign*}
 
 Thus a numerical approximation of the Lambert W function can be found by using Newton's method [2]_ to root-find the above equation. 
 
