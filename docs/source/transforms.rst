@@ -13,5 +13,6 @@ Functions
    laplace
    hartley
    invhartley
+   conv
 
 
