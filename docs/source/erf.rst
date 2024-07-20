@@ -2,7 +2,7 @@
 Erf
 =====
 
-.. cpp:function:: constexpr Complex erf(const Complex& z) noexcept
+.. cpp:function:: inline Complex erf(const Complex& z) noexcept
 
    Evaluates the erf function [1]_ for a complex input.
 

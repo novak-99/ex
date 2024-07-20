@@ -2,7 +2,7 @@
 Erfi
 =====
 
-.. cpp:function:: constexpr Complex erfi(const Complex& z) noexcept
+.. cpp:function:: inline Complex erfi(const Complex& z) noexcept
 
    Evaluates the erfi function [1]_ for a complex input.
 
