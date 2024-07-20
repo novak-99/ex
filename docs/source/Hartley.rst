@@ -4,7 +4,7 @@ Hartley
 
 .. cpp:function:: constexpr Complex laplace(Complex (*f)(Complex), const Complex& z) noexcept
 
-   Performs the Hartley integral transform [1]_ on a complex function.
+   Performs the Hartley integral transform [1]_ of a complex function.
 
 **Parameters**
 
@@ -50,7 +50,7 @@ Output:
 
 .. code-block:: cpp
 
-   0.501173 + 0j // True result: 0.550695 + 0j 
+   0.550782 + 0j // True result: 0.550695 + 0j 
 
 **References**
 

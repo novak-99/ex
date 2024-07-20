@@ -1,7 +1,7 @@
 Transforms
 =====
 
-This module implements various integral transforms on complex functions. 
+This module implements various integral transforms of complex functions. 
 
 Defined in header <Transforms/Transforms.hpp>.
 

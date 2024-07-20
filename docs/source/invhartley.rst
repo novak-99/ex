@@ -4,7 +4,7 @@ Invhartley
 
 .. cpp:function:: constexpr Complex invhartley(Complex (*f)(Complex), const Complex& z) noexcept
 
-   Performs the inverse Hartley integral transform [1]_ on a complex function.
+   Performs the inverse Hartley integral transform [1]_ of a complex function.
 
 **Parameters**
 
@@ -38,7 +38,7 @@ Output:
 
 .. code-block:: cpp
 
-   0.501173 + 0j // True result: 0.550695 + 0j 
+   0.550782 + 0j // True result: 0.550695 + 0j 
 
 **References**
 
