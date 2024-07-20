@@ -32,5 +32,7 @@ Functions
    un
    sigmoid
    sgn
+   factorial
+   binom
 
 
