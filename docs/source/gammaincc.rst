@@ -1,10 +1,10 @@
 
-Gammainc
+Gammaincc
 =====
 
 .. cpp:function:: constexpr double gammainc(const double a, const double x) noexcept
 
-   Evaluates the lower incomplete gamma function [1]_.
+   Evaluates the upper incomplete gamma function [1]_.
 
 **Parameters**
 
@@ -18,14 +18,14 @@ Gammainc
 
 **Returns**
 
-    .. cpp:type:: double
+    .. cpp:type:: Complex
 
-        A real number. 
+        A complex number. 
 
-The lower incomplete gamma function evaluates the lower portion of the gamma integral from :math:`0` to :math:`x`. It is defined as:
+The upper incomplete gamma function evaluates the upper portion of the gamma integral from :math:`x` to :math:`\infty`. It is defined as:
 
 .. math::
-   \gamma(a, x) = \int_{0}^{x} t^{x - 1}e^{-t}dt
+   \Gamma(a, x) = \int_{x}^{\infty} t^{x - 1}e^{-t}dt
 
 
 **Example**
@@ -33,13 +33,13 @@ The lower incomplete gamma function evaluates the lower portion of the gamma int
 .. code-block:: cpp
 
    double x = 1; 
-   std::cout << gammainc(x) << "\n";
+   std::cout << gammaincc(x) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   0.632121
+   0.367875
 
 **References**
 
