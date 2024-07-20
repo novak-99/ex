@@ -25,7 +25,7 @@ Gammaincc
 The upper incomplete gamma function evaluates the upper portion of the gamma integral from :math:`x` to :math:`\infty`. It is defined as:
 
 .. math::
-   \Q(a, x) = \int_{x}^{\infty} t^{x - 1}e^{-t}dt
+   \Gamma(a, x) = \int_{x}^{\infty} t^{x - 1}e^{-t}dt
 
 
 **Example**

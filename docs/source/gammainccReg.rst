@@ -22,10 +22,10 @@ GammainccReg
 
         A complex number. 
 
-The upper incomplete gamma function evaluates the upper portion of the gamma integral from :math:`x` to :math:`\infty`. It is defined as:
+This regularized version is defined as:
 
 .. math::
-   P(a, x) = \frac{\Gamma(a, x)}{\Gamma(a)}
+   Q(a, x) = \frac{\Gamma(a, x)}{\Gamma(a)}
 
 
 **Example**
