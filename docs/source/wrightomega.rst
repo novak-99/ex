@@ -26,8 +26,11 @@ The Wright omega function is defined as the inverse of the following function:
 For :math:`\omega = \omega(z)`, where :math:`\omega(z)` is the Wright omega function, then it holds that: 
 
 .. math::
-   \omega + \log(\omega) = z \\
-   \omega + \log(\omega) - z = 0
+
+   \begin{align*}
+   \omega + \log(\omega) &= z \\
+   \omega + \log(\omega) - z &= 0
+   \end{align*}
 
 Thus a numerical approximation of the Wright omega function can be found by using Newton's method [2]_ to root-find the above equation. 
 
