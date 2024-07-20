@@ -13,6 +13,8 @@ Functions
    gamma
    loggamma 
    rgamma
+   gammainc
+   gammaincc
    pi
    psi
    digamma
