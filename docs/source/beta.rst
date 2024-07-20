@@ -25,7 +25,7 @@ Beta
 The beta function is defined as follows:
 
 .. math::
-   \beta(a, b) = \frac{\Gamma(a)\Gamma(b)}{\Gamma(a + b)}
+   B(a, b) = \frac{\Gamma(a)\Gamma(b)}{\Gamma(a + b)}
 
 
 **Example**
