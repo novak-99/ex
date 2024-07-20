@@ -1,5 +1,5 @@
 
-Sigmoid
+Binom
 =====
 
 .. cpp:function:: constexpr int binom(const int n, const int k) noexcept
