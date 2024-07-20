@@ -26,7 +26,7 @@ The binomial coefficient of two positive integers, :math:`n \geq k \geq 0` is de
 
 .. math::
    
-   \binom{N}{k} = \frac{n!}{k!(n - k)!}
+   \binom{n}{k} = \frac{n!}{k!(n - k)!}
 
 
 **Example**
@@ -35,13 +35,13 @@ The binomial coefficient of two positive integers, :math:`n \geq k \geq 0` is de
 
    int n = 2; 
    int k = 1; 
-   std::cout << sigmoid() << "\n";
+   std::cout << binom(n, k) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   0.782042 + 0.201948j
+   2
 
 **References**
 
