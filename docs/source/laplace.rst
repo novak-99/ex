@@ -29,7 +29,7 @@ Laplace
 The Laplace transform performs the following integral transform on a function :math:`f`:
 
 .. math::
-   \mathcal{L}{f}(z) = \int_{0}^{\infty}f(t)e^{-zt}dt
+   \mathcal{L}\{f\}(z) = \int_{0}^{\infty}f(t)e^{-zt}dt
 
 
 **Example**
