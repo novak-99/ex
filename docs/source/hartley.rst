@@ -27,7 +27,7 @@ The Hartley transform performs the following integral transform on a function :m
 .. math::
 
     \DeclareMathOperator\cas{cas}
-    H(\omega) = \{\mathcal{H}f\}(\omega) = \frac{1}{\sqrt(2\pi)}\int_{-\infty}^{\infty}f(t)\cas(\omega t)dt
+    H(\omega) = \{\mathcal{H}f\}(\omega) = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}f(t)\cas(\omega t)dt
 
 where :math:`\DeclareMathOperator\cas{cas} \cas(t)` is defined as:
 
