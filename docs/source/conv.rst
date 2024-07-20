@@ -30,7 +30,7 @@ The convolution operation performs the following integral transform on two funct
 
 .. math::
 
-    (f * g)(t) = \int_{-\infty}^{infty}f(\tau)g(t - \tau)d\tau
+    (f * g)(t) = \int_{-\infty}^{\infty}f(\tau)g(t - \tau)d\tau
 
 
 **Example**
