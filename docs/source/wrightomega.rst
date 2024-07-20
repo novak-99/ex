@@ -28,8 +28,8 @@ For :math:`\omega = \omega(z)`, where :math:`\omega(z)` is the Wright omega func
 .. math::
 
    \begin{flalign}
-   \omega + \log(\omega) &= z \\
-   \omega + \log(\omega) - z &= 0
+   z &= \omega + \log(\omega) \\
+   \omega + \log(\omega) - z =& 0
    \end{flalign}
 
 Thus a numerical approximation of the Wright omega function can be found by using Newton's method [2]_ to root-find the above equation. 
