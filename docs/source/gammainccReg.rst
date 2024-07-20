@@ -20,7 +20,7 @@ GammainccReg
 
     .. cpp:type:: double
 
-        A complex number. 
+        A real number. 
 
 This regularized version is defined as:
 

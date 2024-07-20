@@ -20,7 +20,7 @@ Gammaincc
 
     .. cpp:type:: double
 
-        A complex number. 
+        A real number. 
 
 The upper incomplete gamma function evaluates the upper portion of the gamma integral from :math:`x` to :math:`\infty`. It is defined as:
 
