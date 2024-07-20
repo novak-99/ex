@@ -18,6 +18,7 @@ Functions
    gammaincReg
    gammainccReg
    alpha
+   beta
    pi
    psi
    digamma
