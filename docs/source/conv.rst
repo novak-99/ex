@@ -42,7 +42,7 @@ The convolution operation performs the following integral transform on two funct
 
 
    Complex z = 1; 
-   std::cout << hartley(f, g, z) << "\n";
+   std::cout << conv(f, g, z) << "\n";
 
 Output:
 
