@@ -15,5 +15,6 @@ Functions
    invhartley
    conv
    crosscorr
+   autocorr
 
 
