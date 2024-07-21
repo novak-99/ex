@@ -18,11 +18,11 @@ Crosscorr
 
 **Returns**
 
-    .. cpp:type:: Complex
+    .. cpp:var:: std::vector<Complex>
 
-        A complex number. 
+        A complex sequence. 
 
-The discrete convolution operation performs the following operation on two complex sequences :math:`X` of size :math:`M` and :math:`Y` of size :math:`N`:
+The discrete cross-correlation operation performs the following operation on two complex sequences :math:`X` of size :math:`M` and :math:`Y` of size :math:`N`:
 
 .. math::
 

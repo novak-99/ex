@@ -18,9 +18,9 @@ Conv
 
 **Returns**
 
-    .. cpp:type:: Complex
+    .. cpp:var:: std::vector<Complex>
 
-        A complex number. 
+        A complex sequence. 
 
 The discrete convolution operation performs the following operation on two complex sequences :math:`X` of size :math:`M` and :math:`Y` of size :math:`N`:
 
@@ -65,6 +65,6 @@ Output:
 
 .. [1] "Convolution", Wikipedia,
         https://en.wikipedia.org/wiki/Convolution
-        
+
 .. [2] "Convolution theorem", Wikipedia,
         https://en.wikipedia.org/wiki/Convolution_theorem
