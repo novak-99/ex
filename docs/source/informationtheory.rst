@@ -1,4 +1,4 @@
-Signal
+InformationTheory
 =====
 
 This module implements various functions related to information theory. In particular, it features va
