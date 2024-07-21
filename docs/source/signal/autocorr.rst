@@ -2,17 +2,13 @@
 Autocorr
 =====
 
-.. cpp:function:: constexpr std::vector<Complex> crosscorr(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept
+.. cpp:function:: constexpr std::vector<Complex> autocorr(const std::vector<Complex>& X) noexcept
 
    Performs the discrete auto-correlation operation [1]_ on a compelx sequence.
 
 **Parameters**
 
     .. cpp:var:: const std::vector<Complex>& X
-
-        A complex sequence. 
-
-    .. cpp:var:: const std::vector<Complex>& Y
 
         A complex sequence. 
 
