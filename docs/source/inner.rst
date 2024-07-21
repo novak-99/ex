@@ -53,15 +53,17 @@ The inner product of two complex functions :math:`f`: and :math:`g` is defined a
 
 
    Complex z = 1; 
-   std::cout << crosscorr(f, g, z) << "\n";
+   Complex a = 0; 
+   Complex b = 1; 
+   std::cout << inner(f, g, z, a, b) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   0.760276 + 0j
+   0.598144 + 0j
 
 **References**
 
-.. [1] "Cross-correlation", Wikipedia,
-        https://en.wikipedia.org/wiki/Cross-correlation
+.. [1] "Inner product space", Wikipedia,
+        https://en.wikipedia.org/wiki/Inner_product_space
