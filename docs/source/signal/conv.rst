@@ -38,8 +38,8 @@ Undefined elements :math:`X[i]` and :math:`Y[j]` are simply set to :math:`0`. Th
 
 .. code-block:: cpp
 
-    std::vector<Complex> X = {1,2,3,4,5};
-    std::vector<Complex> Y = {6,7,8,9,10}; 
+    std::vector<Complex> X = {1, 2, 3, 4, 5};
+    std::vector<Complex> Y = {6, 7, 8, 9, 10}; 
 
     std::vector<Complex> Z = conv(X, Y); 
 

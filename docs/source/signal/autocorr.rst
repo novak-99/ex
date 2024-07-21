@@ -28,7 +28,7 @@ The discrete auto-correlation operation simply performs the cross-correlation us
 
 .. code-block:: cpp
 
-    std::vector<Complex> X = {1,2,3,4,5};
+    std::vector<Complex> X = {1, 2, 3, 4, 5};
 
     std::vector<Complex> Z = autocorr(X); 
 
