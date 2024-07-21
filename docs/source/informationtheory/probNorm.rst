@@ -14,7 +14,7 @@ ProbNorm
 
 **Returns**
 
-    .. cpp:type:: const std::vector<double>
+    .. cpp:type:: std::vector<double>
 
         A real sequence.
 
