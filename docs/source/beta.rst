@@ -2,7 +2,7 @@
 Beta
 =====
 
-.. cpp:function:: double Complex beta(const double a, const double b) noexcept
+.. cpp:function:: constexpr double Complex beta(const double a, const double b) noexcept
 
    Evaluates the beta function [1]_ for a complex input.
 

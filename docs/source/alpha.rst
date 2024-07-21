@@ -2,7 +2,7 @@
 Alpha
 =====
 
-.. cpp:function:: double Complex alpha(const int n, const double x) noexcept
+.. cpp:function:: constexpr double Complex alpha(const int n, const double x) noexcept
 
    Evaluates the alpha function [1]_ for a complex input.
 
