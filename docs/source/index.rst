@@ -19,3 +19,4 @@ Contents
    complex
    special
    transforms
+   signal
