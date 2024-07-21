@@ -16,5 +16,4 @@ Functions
    conv
    crosscorr
    autocorr
-
-
+   inner
