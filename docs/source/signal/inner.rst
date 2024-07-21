@@ -29,7 +29,7 @@ The discrete inner product performs the following operation on two sequences :ma
     \newcommand{\compconj}[1]{%
     \overline{#1}%
     }
-    \langle X, Y \rangle = X \cdot \compconj(Y)
+    \langle X, Y \rangle = X \cdot \compconj{Y}
 
 **Example**
 
