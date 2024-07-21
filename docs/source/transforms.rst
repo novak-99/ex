@@ -14,5 +14,6 @@ Functions
    hartley
    invhartley
    conv
+   crosscorr
 
 
