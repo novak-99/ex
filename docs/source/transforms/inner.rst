@@ -34,7 +34,7 @@ Inner
 
         A complex number. 
 
-The inner product of two complex functions :math:`f`: and :math:`g` is defined as:
+The inner product of two complex functions :math:`f` and :math:`g` is defined as:
 
 .. math::
 

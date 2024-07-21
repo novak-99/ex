@@ -26,7 +26,7 @@ Conv
 
         A complex number. 
 
-The convolution operation performs the following integral transform on two functions :math:`f`: and :math:`g`:
+The convolution operation performs the following integral transform on two functions :math:`f` and :math:`g`:
 
 .. math::
 

@@ -26,7 +26,7 @@ Crosscorr
 
         A complex number. 
 
-The cross-correlation operation performs the following integral transform on two functions :math:`f`: and :math:`g`:
+The cross-correlation operation performs the following integral transform on two functions :math:`f` and :math:`g`:
 
 .. math::
 
