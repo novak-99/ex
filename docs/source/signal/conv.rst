@@ -28,7 +28,7 @@ The discrete convolution operation performs the following operation on two compl
 
     (X * Y)[n] = \sum_{-\infty}^{\infty}X[m]Y[n - m]
 
-Undefined elements :math:`X[i]` and :math:`Y[j]` are simply set to 0. The implementation is made to be of order :math:`O(\log n)` by using the convolution theorem [2]_. Namely:
+Undefined elements :math:`X[i]` and :math:`Y[j]` are simply set to :math:`0`. The implementation is made to be of order :math:`O(\log n)` by using the convolution theorem [2]_. Namely:
 
 .. math::
 
