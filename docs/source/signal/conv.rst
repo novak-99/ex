@@ -65,5 +65,6 @@ Output:
 
 .. [1] "Convolution", Wikipedia,
         https://en.wikipedia.org/wiki/Convolution
+        
 .. [2] "Convolution theorem", Wikipedia,
         https://en.wikipedia.org/wiki/Convolution_theorem
