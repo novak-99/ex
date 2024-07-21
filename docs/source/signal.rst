@@ -9,7 +9,8 @@ Functions
 --------
 
 .. toctree::
-
+   :maxdepth: 2
+   
    transforms/laplace
    transforms/hartley
    transforms/invhartley
