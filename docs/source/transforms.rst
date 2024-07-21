@@ -9,11 +9,12 @@ Functions
 --------
 
 .. toctree::
-
-   laplace
-   hartley
-   invhartley
-   conv
-   crosscorr
-   autocorr
-   inner
+   :maxdepth: 2
+   
+   transforms/laplace
+   transforms/hartley
+   transforms/invhartley
+   transforms/conv
+   transforms/crosscorr
+   transforms/autocorr
+   transforms/inner

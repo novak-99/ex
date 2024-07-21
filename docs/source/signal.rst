@@ -10,11 +10,8 @@ Functions
 
 .. toctree::
    :maxdepth: 2
-   
-   transforms/laplace.rst
-   transforms/hartley.rst
-   transforms/invhartley.rst
-   transforms/conv.rst
-   transforms/crosscorr.rst
-   transforms/autocorr.rst
-   transforms/inner.rst
+
+   signal/conv
+   signal/crosscorr
+   signal/autocorr
+   signal/inner
