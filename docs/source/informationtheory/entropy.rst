@@ -25,7 +25,7 @@ In information theory, the entropy of a discrete random variable is defined as:
     \DeclareMathOperator\H{H}
     H(X) = -\sum_{x \in \mathcal{X}}p(x)\log p(x)
 
-The summand is defined to be :math:`0` for :math:`p(x) = 0` and the summation is set to :math:`-\infty` if a negative probability is present.
+The sequence X is normalized beforehand. The summand is defined to be :math:`0` for :math:`p(x) = 0` and the summation is set to :math:`-\infty` if a negative probability is present.
 
 **Example**
 
