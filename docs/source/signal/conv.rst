@@ -16,10 +16,6 @@ Conv
 
         A complex sequence. 
 
-    .. cpp:var:: const std::vector<Complex>& X
-
-        A complex sequence
-
 **Returns**
 
     .. cpp:type:: Complex
