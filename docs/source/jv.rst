@@ -1,16 +1,16 @@
 
-Jn
+Jv
 =====
 
-.. cpp:function:: constexpr Complex jn(const int n, const Complex& z) noexcept
+.. cpp:function:: constexpr Complex jv(const double v, const Complex& z) noexcept
 
-   Evaluates the Bessel function of the first kind [1]_ for a complex input and integer order.
+   Evaluates the Bessel function of the first kind [1]_ for a complex input and real order.
 
 **Parameters**
 
-    .. cpp:var:: const int n
+    .. cpp:var:: const double v
 
-        An integer.
+        A real number. 
 
     .. cpp:var:: const Complex& z
 
@@ -25,26 +25,28 @@ Jn
 The Bessel functions of the first kind are the solutions to the following differential equation: 
 
 .. math::
-   x^2 \frac{d^2y}{dx^2} + x \frac{dy}{dx} + (x^2 - n^2) = 0
+   x^2 \frac{d^2y}{dx^2} + x \frac{dy}{dx} + (x^2 - v^2)y = 0
 
-For an integer order :math:`n`, the following integral representation [2]_ can be used:
+For a real order :math:`v`, the following integral representation [2]_ can be used:
 
 .. math::
-   J_n(z) = \frac{1}{\pi}\int_{0}{\pi}\cos(z\sin(\theta) - n\theta)d\theta
+   J_v(z) = \frac{(\frac{1}{2}z)^v}{\pi^\frac{1}{2}\Gamma(v + \frac{1}{2})}\int_{0}^{\pi}\cos(z\cos\theta)(\sin\theta)^{2v}d\theta
+
+for :math:`\Re(v) > -\frac{1}{2}`.
 
 **Example**
 
 .. code-block:: cpp
 
-    int n = 1; 
+    int n = 0.5; 
     Complex z = 1_j;
-    std::cout << jn(n, z) << "\n";
+    std::cout << jv(n, z) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   1.87315e-17 + 0.565159j
+   0.663036 + 0.663036j
 
 **References**
 
