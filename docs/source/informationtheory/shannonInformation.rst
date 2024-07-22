@@ -25,7 +25,7 @@ In information theory, the Shannon information of a discrete random variable is 
     \DeclareMathOperator\I{I}
     I(X) = -\log p(x)
 
-The function returns :math:`-\infty` if the probability is negative or 0. 
+The function returns :math:`-\infty` if the probability is negative or :math:`0`. 
 
 **Example**
 
