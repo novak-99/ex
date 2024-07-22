@@ -32,7 +32,7 @@ For a real order :math:`v`, the following integral representation [2]_ can be us
 .. math::
    Y_v(z) = \frac{(\frac{1}{2}z)^v}{\pi^\frac{1}{2}\Gamma(v + \frac{1}{2})}\int_{0}^{\pi}\cos(z\cos\theta)(\sin\theta)^{2v}d\theta
 
-for :math:`\Re(v) > -\frac{1}{2}` and :math:`\DeclareMathOperator\erf{erf} v > -\frac{1}{2}\pi`
+for :math:`\Re(v) > -\frac{1}{2}` and :math:`\DeclareMathOperator\erf{erf} v > -\frac{1}{2}\pi`.
 
 **Example**
 
