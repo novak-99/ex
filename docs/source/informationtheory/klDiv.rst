@@ -2,7 +2,7 @@
 KlDiv
 =====
 
-.. cpp:function:: constexpr double kldiv(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept
+.. cpp:function:: constexpr double klDiv(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept
 
    Calculates the Kullback–Leibler (KL) divergence [1]_ of a complex sequence. 
 
@@ -29,7 +29,7 @@ In information theory, the KL divergence of two discrete random variables is def
     \DeclareMathOperator\KL{KL}
     D_{\KL}(P || Q) = -\sum_{x \in \mathcal{X}}P(x)\log(\frac{P(x)}{Q(x)})
 
-The sequence :math:`X` is normalized beforehand. The summand is defined to be :math:`0` for :math:`p(x) = 0` and the summation is set to :math:`-\infty` if a negative probability is present.
+Both sequences are normalized beforehand.
 
 **Example**
 
