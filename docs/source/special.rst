@@ -25,6 +25,12 @@ Functions
    psi
    digamma
    zeta
+   jn
+   jv
+   yv
+   hv1
+   hv2
+   hyp2f1
    erf
    erfc
    erfcx
