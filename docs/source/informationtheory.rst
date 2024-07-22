@@ -17,3 +17,4 @@ Functions
 
    informationtheory/probNorm
    informationtheory/entropy
+   informationtheory/klDiv

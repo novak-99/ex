@@ -1,0 +1,52 @@
+
+KlDiv
+=====
+
+.. cpp:function:: constexpr double kldiv(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept
+
+   Calculates the Kullback–Leibler (KL) divergence [1]_ of a complex sequence. 
+
+**Parameters**
+
+    .. cpp:var:: const std::vector<Complex>& X
+
+        A real sequence.
+
+    .. cpp:var:: const std::vector<Complex>& Y
+
+        A real sequence.
+
+**Returns**
+
+    .. cpp:type:: double
+
+        A real number.
+
+In information theory, the KL divergence of two discrete random variables is defined as: 
+
+.. math::
+
+    \DeclareMathOperator\KL{KL}
+    D_{\KL}(P || Q) = -\sum_{x \in \mathcal{X}}P(x)\log(\frac{P(x)}{Q(x)})
+
+The sequence :math:`X` is normalized beforehand. The summand is defined to be :math:`0` for :math:`p(x) = 0` and the summation is set to :math:`-\infty` if a negative probability is present.
+
+**Example**
+
+.. code-block:: cpp
+
+    std::vector<Complex> X = {1, 2, 3, 4, 5};
+    std::vector<Complex> Y = {1, 2, 3, 4, 5};
+
+    std::cout << klDiv(X, Y) << "\n";
+
+Output:
+
+.. code-block:: cpp
+
+    0
+
+**References**
+
+.. [1] "Kullback-Leibler divergence", Wikipedia,
+        https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence
