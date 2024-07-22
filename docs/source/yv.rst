@@ -30,9 +30,9 @@ The Bessel functions of the second kind are the solutions to the following diffe
 For a real order :math:`v`, the following integral representation [2]_ can be used:
 
 .. math::
-   Y_v(z) = \frac{(\frac{1}{2}z)^v}{\pi^\frac{1}{2}\Gamma(v + \frac{1}{2})}\int_{0}^{\pi}\cos(z\cos\theta)(\sin\theta)^{2v}d\theta
+   Y_v(z) = \frac{2(\frac{1}{2}z)^v}{\pi^\frac{1}{2}\Gamma(v + \frac{1}{2})}(\int_{0}^{1}(1 - t^2)^{v - \frac{1}{2}}\sin(zt)dt - \int_{0}^{\infty}e^{-zt}(1 + t^2)^{v - \frac{1}{2}}dt)
 
-for :math:`\Re(v) > -\frac{1}{2}` and :math:`\DeclareMathOperator\erf{erf} v > -\frac{1}{2}\pi`.
+for :math:`\Re(v) > -\frac{1}{2}` and :math:`\DeclareMathOperator\arg{arg} |arg(z)| < \frac{1}{2}\pi`.
 
 **Example**
 
