@@ -4,17 +4,17 @@ KlDiv
 
 .. cpp:function:: constexpr double klDiv(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept
 
-   Calculates the Kullback–Leibler (KL) divergence [1]_ of a complex sequence. 
+   Calculates the Kullback–Leibler (KL) divergence [1]_ of two complex sequences.
 
 **Parameters**
 
     .. cpp:var:: const std::vector<Complex>& X
 
-        A real sequence.
+        A complex sequence.
 
     .. cpp:var:: const std::vector<Complex>& Y
 
-        A real sequence.
+        A complex sequence.
 
 **Returns**
 

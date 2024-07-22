@@ -19,3 +19,4 @@ Functions
    informationtheory/entropy
    informationtheory/klDiv
    informationtheory/jsDiv
+   informationtheory/shannonInformation

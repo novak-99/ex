@@ -10,7 +10,7 @@ Entropy
 
     .. cpp:var:: const std::vector<Complex>& X
 
-        A real sequence.
+        A complex sequence.
 
 **Returns**
 
