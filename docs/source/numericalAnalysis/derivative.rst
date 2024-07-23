@@ -25,9 +25,10 @@ Derivative
 This function simply returns the derivative of a function :math:`f` evaluated at a point :math:`z`:, that is:
 
 .. math::
-   \left. \frac{df(x)}{dx} \right|_{x = z} = \lim_{h\to\0} \frac{f(z + h) - f(z)}{h}
+   \left. \frac{df(x)}{dx} \right|_{x = z} = \lim_{h\to 0} \frac{f(z + h) - f(z)}{h}
 
 To approxiate the derivative, we set :math:`h = 10^{-8}`.
+
 **Example**
 
 .. code-block:: cpp
