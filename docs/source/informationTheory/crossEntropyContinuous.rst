@@ -37,8 +37,6 @@ In information theory, the Jensen-Shannon divergence of two discrete random vari
     \DeclareMathOperator\JSD{JSD}
     H(p, q) = -\int_{\mathcal{X}}p(x)\log q(x)dx
 
-where :math:`M = \frac{1}{2}(P + Q)` and where `D(P || Q)` is the Kullback-Leibler divergence.
-
 **Example**
 
 .. code-block:: cpp
