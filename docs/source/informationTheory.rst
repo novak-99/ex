@@ -23,3 +23,5 @@ Functions
    informationTheory/shannonInformation
    informationTheory/crossEntropy
    informationTheory/entropyContinuous
+   informationTheory/klDivContinuous
+   informationTheory/jsDivContinuous

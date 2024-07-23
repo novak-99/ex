@@ -34,8 +34,6 @@ Both sequences are normalized beforehand.
 
 .. code-block:: cpp
 
-    // Example PDF. The bivariate real-complex PDF would also include the cross-correlation rho term.
-
     std::vector<Complex> X = {1, 2, 3, 4, 5};
     std::vector<Complex> Y = {1, 2, 3, 4, 5};
 
