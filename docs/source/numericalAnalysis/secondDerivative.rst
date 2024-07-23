@@ -22,7 +22,7 @@ SecondDerivative
 
         A complex number. 
 
-This function simply returns the second derivative of a function :math:`f` evaluated at a point :math:`z`:, that is:
+This function simply returns the second derivative of a function :math:`f` evaluated at a point :math:`z`, that is:
 
 .. math::
    \left. \frac{d^2f(x)}{dx^2} \right|_{x = z} = \lim_{h\to 0} \frac{f(z + h) - 2f(z) + f(z - h)}{h^2}
