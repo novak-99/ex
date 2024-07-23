@@ -25,5 +25,5 @@ Functions
    informationTheory/entropyContinuous
    informationTheory/klDivContinuous
    informationTheory/jsDivContinuous
-   informationTheory/CrossEntropyContinuous
+   informationTheory/crossEntropyContinuous
    informationTheory/binaryEntropy
