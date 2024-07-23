@@ -25,3 +25,4 @@ Functions
    informationTheory/entropyContinuous
    informationTheory/klDivContinuous
    informationTheory/jsDivContinuous
+   informationTheory/CrossEntropyContinuous
