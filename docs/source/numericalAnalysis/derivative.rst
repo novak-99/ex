@@ -25,7 +25,7 @@ Derivative
 This function simply returns the derivative of a function :math:`f` evaluated at a point :math:`z`:, that is:
 
 .. math::
-   \left. \frac{df(x)}{dx} \right|_{x = z} = \lim_{h\to 0} \frac{f(z + h) - f(z)}{h}
+   \left. \frac{df(x)}{dx} \right|_{x = z} = \lim_{h\to 0} \frac{f(z + h) - f(z - h)}{2h}
 
 To approxiate the derivative, we set :math:`h = 10^{-8}`.
 
@@ -33,16 +33,16 @@ To approxiate the derivative, we set :math:`h = 10^{-8}`.
 
 .. code-block:: cpp
 
-    auto fn = [](Complex z) { return sin(-z); }; // Example PDF 1. 
+    auto fn = [](Complex z) { return sin(z); }; // Example PDF 1. 
     std::cout << derivative(fn, 1 + 1_j) << "\n";
-    std::cout << -cos(1 + 1_j) << "\n";
+    std::cout << cos(1 + 1_j) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-    -0.83373 + 0.988898j
-    -0.83373 + 0.988898j
+    0.83373 - 0.988898j
+    0.83373 - 0.988898j
 
 **References**
 
