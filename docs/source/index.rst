@@ -17,7 +17,8 @@ Contents
 .. toctree::
 
    complex
-   special
+   numericalAnalysis
    transforms
    signal
    informationTheory
+   special
