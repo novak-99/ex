@@ -7,7 +7,7 @@ Defined in header <InformationTheory/InformationTheory.hpp>.
 
 .. note::
 
-   All discrete entropy functions make the assumption that the real and complex components are an independent, joint distribution. \\
+   All discrete entropy functions make the assumption that the real and complex components are an independent, joint distribution.\n
    All continuous entropy functions make the assumption that you are using PDFs of the bivariate real-complex distribution.
 
 Functions
