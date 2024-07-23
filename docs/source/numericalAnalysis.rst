@@ -14,3 +14,5 @@ Functions
    numericalAnalysis/derivative
    numericalAnalysis/secondDerivative
    numericalAnalysis/constantApproximation
+   numericalAnalysis/linearApproximation
+   numericalAnalysis/quadraticApproximation
