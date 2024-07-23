@@ -20,4 +20,4 @@ Contents
    special
    transforms
    signal
-   informationtheory
+   informationTheory

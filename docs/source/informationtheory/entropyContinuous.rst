@@ -37,15 +37,16 @@ In information theory, the entropy of a continuous random variable is defined as
 
 .. code-block:: cpp
 
-    std::vector<Complex> X = {1 + 1_j, 2, 3, 4, 5};
-
-    std::cout << entropy(X) << "\n";
+    auto pdf = [](Complex z) { return exp(-z * z); }; // Example PDF. 
+    std::cout << entropy(pdf, -INF.real(), INF.real()) << "\n";
+    std::cout << -std::sqrt(M_PI) / 2 << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-    1.48975
+    -0.88551
+    -0.886227
 
 **References**
 

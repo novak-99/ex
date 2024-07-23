@@ -16,8 +16,9 @@ Functions
 .. toctree::
    :maxdepth: 2
 
-   informationtheory/probNorm
-   informationtheory/entropy
-   informationtheory/klDiv
-   informationtheory/jsDiv
-   informationtheory/shannonInformation
+   informationTheory/probNorm
+   informationTheory/entropy
+   informationTheory/klDiv
+   informationTheory/jsDiv
+   informationTheory/shannonInformation
+   informationTheory/entropyContinuous
