@@ -1,5 +1,5 @@
 
-Gamma
+Derivative
 =====
 
 .. cpp:function:: constexpr Complex derivative(Complex (*f)(Complex), const Complex& z) noexcept
