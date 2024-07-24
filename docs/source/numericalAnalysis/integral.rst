@@ -21,11 +21,11 @@ Integral
 
     .. cpp:var:: const Complex& a
 
-        Lower integration bound. Use :code:`NINF` from <Constants/Constants.hpp> for :math:`-\infty`.
+        Lower integration bound. Use :code:`NINF` from :code:`<Constants/Constants.hpp>` for :math:`-\infty`.
 
     .. cpp:var:: const Complex& b
 
-        Upper integration bound. Use :code:`INF` from <Constants/Constants.hpp> for :math:`\infty`.
+        Upper integration bound. Use :code:`INF` from :code:`<Constants/Constants.hpp>` for :math:`\infty`.
 
     .. cpp:var:: const std::vector<Complex (*)(Complex)>& fargs
 

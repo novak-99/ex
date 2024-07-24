@@ -3,7 +3,7 @@ Signal
 
 This module implements various functions related to signal processing. In particular, it features discrete versions of various integral transforms.
 
-Defined in header <Signal/Signal.hpp>.
+Defined in header :code:`<Signal/Signal.hpp>`.
 
 Functions
 --------
