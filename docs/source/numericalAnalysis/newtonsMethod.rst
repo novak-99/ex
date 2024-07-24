@@ -29,7 +29,7 @@ NewtonsMethod
 This function root-finds the given complex function :math:`f` using the following update rule:
 
 .. math::
-    z_{k+1} = z_k - \alpha \frac{f(z_k)}{f(z_k)}
+    z_{k+1} = z_k - \frac{f(z_k)}{f(z_k)}
 
 **Example**
 
