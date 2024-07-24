@@ -33,7 +33,7 @@ To approxiate the derivative, we set :math:`h = 10^{-8}`.
 
 .. code-block:: cpp
 
-    auto fn = [](Complex z) { return sin(z); }; // Example PDF 1. 
+    auto fn = [](Complex z) { return sin(z); };
     std::cout << derivative(fn, 1 + 1_j) << "\n";
     std::cout << cos(1 + 1_j) << "\n";
 

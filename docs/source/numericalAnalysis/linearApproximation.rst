@@ -35,7 +35,7 @@ This function simply returns the linear approximation of :math:`f` evaluated at 
 
 .. code-block:: cpp
 
-    auto fn = [](Complex z) { return sin(z); }; // Example PDF 1. 
+    auto fn = [](Complex z) { return sin(z); };
     std::cout << linearApproximation(fn, 1 + 1_j, 1) << "\n";
 
 Output:

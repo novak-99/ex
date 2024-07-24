@@ -20,3 +20,4 @@ Functions
    numericalAnalysis/gradientDescent
    numericalAnalysis/newtonsMethod
    numericalAnalysis/halleysMethod
+   numericalAnalysis/integral

@@ -35,7 +35,7 @@ This function root-finds the given complex function :math:`f` using the followin
 
 .. code-block:: cpp
 
-    auto fn = [](Complex z) { return sin(z); }; // Example PDF 1. 
+    auto fn = [](Complex z) { return sin(z); };
     Complex z = newtonsMethod(fn, 0.1, 1000); 
     std::cout << z << "\n";
     std::cout << sin(z) << "\n";
