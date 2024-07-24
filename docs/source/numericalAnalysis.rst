@@ -17,3 +17,4 @@ Functions
    numericalAnalysis/linearApproximation
    numericalAnalysis/quadraticApproximation
    numericalAnalysis/gradientDescent
+   numericalAnalysis/newtonsMethod
