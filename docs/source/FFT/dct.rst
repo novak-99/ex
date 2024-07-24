@@ -1,10 +1,10 @@
 
-ifft
+dct
 =====
 
-.. cpp:function:: constexpr std::vector<Complex> ifft(const std::vector<Complex>& X) noexcept
+.. cpp:function:: constexpr std::vector<Complex> dct(const std::vector<Complex>& X, int type = 2) noexcept
 
-   Calculates the inverse fast Fourier transform [1]_ of a complex sequence. 
+   Calculates the discrete cosine transform [1]_ of a complex sequence. 
 
 **Parameters**
 
@@ -18,14 +18,15 @@ ifft
 
         A complex sequence.
 
-The fast inverse Fourier transform performs the discrete Fourier transform, defined as follows:
+The fast Fourier transform performs the discrete Fourier transform, defined as follows:
 
 .. math::
 
     \DeclareMathOperator\H{H}
-    X_k = \frac{1}{n}\sum_{m = 0}^{n - 1}x_m e^{2\pi km/n} \quad k = 0, \ldots, n-1,
+    X_k = \sum_{m = 0}^{n - 1}x_m e^{-2\pi km/n} \quad k = 0, \ldots, n-1,
 
-The transform is made to perform in :math:`O\log(n)` time using the Cooley-Tukey algorithm [2]_.
+A discrete Fourier transform is classed as a fast Fourier transform if it is able to perform the above transform in :math:`O\log(n)` time. The Cooley-Tukey algorithm [2]_ is used by cpplex to achieve this.
+
 **Example**
 
 .. code-block:: cpp

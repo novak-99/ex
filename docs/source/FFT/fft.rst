@@ -4,7 +4,7 @@ fft
 
 .. cpp:function:: constexpr std::vector<Complex> fft(const std::vector<Complex>& X) noexcept
 
-   Calculates fast Fourier transform [1]_ of a complex sequence. 
+   Calculates the fast Fourier transform [1]_ of a complex sequence. 
 
 **Parameters**
 
