@@ -16,5 +16,7 @@ Functions
    numericalAnalysis/constantApproximation
    numericalAnalysis/linearApproximation
    numericalAnalysis/quadraticApproximation
+   numericalAnalysis/secantMethod
    numericalAnalysis/gradientDescent
    numericalAnalysis/newtonsMethod
+   numericalAnalysis/halleysMethod
