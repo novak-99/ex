@@ -18,7 +18,7 @@ Contents
 
    complex
    numericalAnalysis
-   fft
+   FFT
    signal
    transforms
    informationTheory

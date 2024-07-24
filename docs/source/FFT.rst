@@ -15,3 +15,13 @@ Functions
    FFT/conj
    FFT/fft
    FFT/ifft
+   FFT/dct
+   FFT/idct
+   FFT/dst
+   FFT/idst
+   FFT/dcht
+   FFT/idcht
+   FFT/dhat
+   FFT/idhat
+   FFT/dht
+   FFT/idht
