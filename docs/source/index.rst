@@ -18,7 +18,8 @@ Contents
 
    complex
    numericalAnalysis
-   transforms
+   fft
    signal
+   transforms
    informationTheory
    special
