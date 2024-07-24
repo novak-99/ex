@@ -1,10 +1,10 @@
 
-idct
+idst
 =====
 
-.. cpp:function:: constexpr std::vector<Complex> dct(const std::vector<Complex>& X, int type = 2) noexcept
+.. cpp:function:: constexpr std::vector<Complex> idst(const std::vector<Complex>& X, int type = 2) noexcept
 
-   Calculates the inverse discrete cosine transform [1]_ of a complex sequence. 
+   Calculates the inverse discrete sine transform [1]_ of a complex sequence. 
 
 **Parameters**
 
@@ -14,7 +14,7 @@ idct
 
     .. cpp:var:: int type
 
-        Optional integer specifying the type of IDCT. Set to 2 by default.
+        Optional integer specifying the type of IDST. Set to 2 by default.
 
 **Returns**
 
@@ -22,14 +22,14 @@ idct
 
         A complex sequence.
 
-The inverse discrete cosine transform returns the corresponding types of DCT for IDCT types 1 and 4, returns DCT type 3 for IDCT type 2, and returns DCT type 2 for IDCT type 3.
+The inverse discrete sine transform returns the corresponding types of DST for IDST types 1 and 4, returns DST type 3 for IDST type 2, and returns DST type 2 for IDST type 3.
 
 **Example**
 
 .. code-block:: cpp
 
     std::vector<Complex> X = {1 + 2_j, 2 + 3_j, 3, 4, 5};
-    std::vector<Complex> Y = idct(X, 2); // it's 2 by default.
+    std::vector<Complex> Y = idst(X, 2); // it's 2 by default.
 
     for(int i = 0; i < Y.size(); i++){
         std::cout << Y[i] << "\n";
