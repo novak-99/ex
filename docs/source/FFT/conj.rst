@@ -16,23 +16,15 @@ Conj
 
     .. cpp:type:: std::vector<Complex>
 
+**Example**
+
+.. code-block:: cpp
+
     std::vector<Complex> X = {1 + 2_j, 2 + 3_j, 3, 4, 5};
     std::vector<Complex> conjX = conj(X);
 
     for(int i = 0; i < conjX.size(); i++){
         std::cout << conjX[i] << "\n";
-    }
-
-**Example**
-
-.. code-block:: cpp
-
-    std::vector<double> X = {1, 2, 3, 4, 5};
-
-    std::vector<double> normX = probNorm(X); 
-
-    for(int i = 0; i < normX.size(); i++){
-        std::cout << normX[i] << "\n";
     }
 
 Output:
