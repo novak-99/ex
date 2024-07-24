@@ -22,7 +22,7 @@ GradientDescent
 
     .. cpp:var:: const int epochs
         
-        The number of training iterations.
+        The number of iterations.
 
 **Returns**
 
@@ -33,7 +33,7 @@ GradientDescent
 This function optimizes the given complex function :math:`f` using the following update rule:
 
 .. math::
-    z_{k+1} = z_k - \alpha \frac{f'(z_k)}
+    z_{k+1} = z_k - \alpha f'(z_k)
 
 **Example**
 
