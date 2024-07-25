@@ -1,0 +1,27 @@
+Constants
+=====
+
+This module defines various mathematical constants.
+
+Defined in header :code:`<Constants/Constants.hpp>`.
+
+
+.. **Variables**
+Variables
+--------
+
+.. cpp:var:: const Complex INF
+
+    Real positive infinity :math:`\infty + 0i`. To obtain it as a real number, use :code:`INF.real()`.
+
+.. cpp:var:: const Complex NINF
+
+    Real positive infinity :math:`-\infty + 0i`. You may also use :code:`-INF`. To obtain it as a real number, use :code:`NINF.real()`.
+
+.. cpp:var:: const Complex li2
+
+    Constant for :math:`\DeclareMathOperator\Li{Li} Li(2)`. Approximately :math:`1.04516378`.
+
+.. cpp:var:: const Complex li2
+
+    Contant for the Euler-Mascheroni constant :math:`\gamma`. Approximately :math:`0.57721566`.
