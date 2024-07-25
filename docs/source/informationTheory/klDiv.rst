@@ -1,5 +1,5 @@
 
-KlDiv
+klDiv
 =====
 
 .. cpp:function:: constexpr double klDiv(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept

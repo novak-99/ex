@@ -1,5 +1,5 @@
 
-Entropy
+entropy
 =====
 
 .. cpp:function:: constexpr double entropy(const std::vector<Complex>& X) noexcept

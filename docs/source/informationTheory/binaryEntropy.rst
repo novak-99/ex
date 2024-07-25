@@ -1,5 +1,5 @@
 
-BinaryEntropy
+binaryEntropy
 =====
 
 .. cpp:function:: inline double binaryEntropy(const double p) noexcept

@@ -1,5 +1,5 @@
 
-JsDiv (Continuous)
+jsDiv (Continuous)
 =====
 
 .. cpp:function:: constexpr double klDiv(Complex (*f)(Complex), Complex (*g)(Complex), double a, double b) noexcept

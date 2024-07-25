@@ -1,5 +1,5 @@
 
-JsDiv
+jsDiv
 =====
 
 .. cpp:function:: constexpr double jsDiv(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept

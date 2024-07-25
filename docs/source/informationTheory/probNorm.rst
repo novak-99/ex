@@ -1,5 +1,5 @@
 
-ProbNorm
+probNorm
 =====
 
 .. cpp:function:: constexpr std::vector<double> probNorm(const std::vector<double>& X){

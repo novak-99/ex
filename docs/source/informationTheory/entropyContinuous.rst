@@ -1,5 +1,5 @@
 
-Entropy (Continuous)
+entropy (Continuous)
 =====
 
 .. cpp:function:: constexpr double entropy(Complex (*f)(Complex), double a, double b)

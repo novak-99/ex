@@ -1,5 +1,5 @@
 
-CrossEntropy
+crossEntropy
 =====
 
 .. cpp:function:: constexpr double crossEntropy(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept

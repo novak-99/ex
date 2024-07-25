@@ -1,5 +1,5 @@
 
-CrossEntropy (Continuous)
+crossEntropy (Continuous)
 =====
 
 .. cpp:function:: constexpr double crossEntropy(Complex (*f)(Complex), Complex (*g)(Complex), double a, double b) noexcept

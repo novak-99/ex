@@ -1,5 +1,5 @@
 
-ShannonInformation
+shannonInformation
 =====
 
 .. cpp:function:: constexpr double shannonInformation(const Complex& z) noexcept
