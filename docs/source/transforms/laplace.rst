@@ -1,5 +1,5 @@
 
-Laplace
+laplace
 =====
 
 .. cpp:function:: constexpr Complex laplace(Complex (*f)(Complex), const Complex& z, const Complex& a = 1) noexcept

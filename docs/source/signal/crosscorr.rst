@@ -1,5 +1,5 @@
 
-Crosscorr
+crosscorr
 =====
 
 .. cpp:function:: constexpr std::vector<Complex> crosscorr(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept

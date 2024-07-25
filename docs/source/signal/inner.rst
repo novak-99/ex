@@ -1,5 +1,5 @@
 
-Inner
+inner
 =====
 
 .. cpp:function:: constexpr std::vector<Complex> inner(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept

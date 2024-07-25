@@ -1,5 +1,5 @@
 
-Crosscorr
+crosscorr
 =====
 
 .. cpp:function:: constexpr Complex crosscorr(Complex (*f)(Complex), Complex (*g)(Complex), const Complex& z) noexcept

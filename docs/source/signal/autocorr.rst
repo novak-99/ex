@@ -1,5 +1,5 @@
 
-Autocorr
+autocorr
 =====
 
 .. cpp:function:: constexpr std::vector<Complex> autocorr(const std::vector<Complex>& X) noexcept

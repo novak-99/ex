@@ -1,5 +1,5 @@
 
-Invhartley
+invhartley
 =====
 
 .. cpp:function:: constexpr Complex invhartley(Complex (*f)(Complex), const Complex& z) noexcept

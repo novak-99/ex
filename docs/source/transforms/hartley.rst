@@ -1,5 +1,5 @@
 
-Hartley
+hartley
 =====
 
 .. cpp:function:: constexpr Complex laplace(Complex (*f)(Complex), const Complex& z) noexcept

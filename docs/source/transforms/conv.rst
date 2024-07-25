@@ -1,5 +1,5 @@
 
-Conv
+conv
 =====
 
 .. cpp:function:: constexpr Complex conv(Complex (*f)(Complex), Complex (*g)(Complex), const Complex& z) noexcept

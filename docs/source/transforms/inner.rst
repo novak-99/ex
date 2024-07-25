@@ -1,5 +1,5 @@
 
-Inner
+inner
 =====
 
 .. cpp:function:: constexpr Complex inner(Complex (*f)(Complex), Complex (*g)(Complex), const Complex& z, const Complex& a, const Complex& b) noexcept

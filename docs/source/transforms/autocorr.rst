@@ -1,5 +1,5 @@
 
-Autocorr
+autocorr
 =====
 
 .. cpp:function:: constexpr Complex autocorr(Complex (*f)(Complex) noexcept

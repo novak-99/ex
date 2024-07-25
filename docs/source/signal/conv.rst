@@ -1,5 +1,5 @@
 
-Conv
+conv
 =====
 
 .. cpp:function:: constexpr std::vector<Complex> conv(const std::vector<Complex>& X, const std::vector<Complex>& Y) noexcept
