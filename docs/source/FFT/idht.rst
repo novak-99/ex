@@ -4,7 +4,7 @@ idht
 
 .. cpp:function:: constexpr std::vector<Complex> idht(const std::vector<Complex>& X, int type = 2) noexcept
 
-   Calculates the discrete Hilbert transform [1]_ of a complex sequence. 
+   Calculates the inverse discrete Hilbert transform [1]_ of a complex sequence. 
 
 **Parameters**
 
