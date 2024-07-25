@@ -16,7 +16,7 @@ Variables
 
 .. cpp:var:: const Complex NINF
 
-    Real positive infinity :math:`-\infty + 0i`. You may also use :code:`-INF`. To obtain it as a real number, use :code:`NINF.real()`.
+    Real negative infinity :math:`-\infty + 0i`. You may also use :code:`-INF`. To obtain it as a real number, use :code:`NINF.real()`.
 
 .. cpp:var:: const Complex li2
 
