@@ -23,3 +23,4 @@ Contents
    transforms
    informationTheory
    special
+   constants
