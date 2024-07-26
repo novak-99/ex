@@ -1,15 +1,18 @@
 Complex
 =====
 
-.. _installation:
+.. cpp:class:: Complex
 
-Installation
-------------
-
-For example:
+**Example**
 
 .. code-block:: cpp
 
-   // This code is highlighted using the cpp lexer
-   void foo() { /* ... */ }
+   Complex z1 = 5 + 4_j; 
+   Complex z2 = 5 + 3i;    
+   std::cout << z1 + conj(z2) << "\n";
 
+Output:
+
+.. code-block:: cpp
+
+   10 + 1j
