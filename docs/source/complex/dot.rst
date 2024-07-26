@@ -33,14 +33,16 @@ for :math:`\Re(z_1) = x_1`, :math:`\Im(z_1) = y_1` and so on.
 
 .. code-block:: cpp
 
-   Complex z = 3 + 4_j;
-   std::cout << arg(z) << "\n";
+   Complex z1 = 3 + 4_j;
+   Complex z2 = 5 + 6_j;
+
+   std::cout << dot(z1, z2) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   0.927295
+   39
 
 **References**
 
