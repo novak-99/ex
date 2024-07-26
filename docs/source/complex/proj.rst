@@ -33,5 +33,5 @@ Output:
 
 **References**
 
-.. [1] "Complex conjugate", Wikipedia,
+.. [1] "std::proj(std::complex)", cppreference,
         https://en.cppreference.com/w/cpp/numeric/complex/proj
