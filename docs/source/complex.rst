@@ -24,6 +24,12 @@ Functions
 Non-member Functions
 --------
 
+.. toctree::
+   :maxdepth: 2
+
+   complex/realNonmember
+   complex/imNonmember
+   
 **Example**
 
 .. code-block:: cpp
