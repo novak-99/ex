@@ -35,6 +35,7 @@ Non-member Functions
    complex/conj
    complex/dot
    complex/proj
+   complex/polar
    
 **Example**
 
