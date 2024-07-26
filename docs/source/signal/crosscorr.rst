@@ -31,7 +31,7 @@ The discrete cross-correlation operation performs the following operation on two
     }
     (X \star Y)[n] = \sum_{-\infty}^{\infty}\compconj{X[m]}Y[n + m]
 
-Undefined elements :math:`X[i]` and :math:`Y[j]` are simply set to :math:`0`. The implementation is made to be of order :math:`O(\log n)` by using the FFT and IFFT operations. 
+Undefined elements :math:`X[i]` and :math:`Y[j]` are simply set to :math:`0`. The implementation is made to be of order :math:`O(n\log n)` by using the FFT and IFFT operations. 
 
 **Example**
 

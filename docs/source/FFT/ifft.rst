@@ -25,7 +25,7 @@ The fast inverse Fourier transform performs the discrete Fourier transform, defi
     \DeclareMathOperator\H{H}
     X_k = \frac{1}{n}\sum_{m = 0}^{n - 1}x_m e^{2\pi km/n} \quad k = 0, \ldots, n-1,
 
-The transform is made to perform in :math:`O\log(n)` time using the Cooley-Tukey algorithm [2]_.
+The transform is made to perform in :math:`O(n\log(n))` time using the Cooley-Tukey algorithm [2]_.
 **Example**
 
 .. code-block:: cpp

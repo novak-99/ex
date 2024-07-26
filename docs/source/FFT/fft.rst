@@ -25,7 +25,7 @@ The fast Fourier transform performs the discrete Fourier transform, defined as f
     \DeclareMathOperator\H{H}
     X_k = \sum_{m = 0}^{n - 1}x_m e^{-2\pi km/n} \quad k = 0, \ldots, n-1,
 
-A discrete Fourier transform is classed as a fast Fourier transform if it is able to perform the above transform in :math:`O\log(n)` time. The Cooley-Tukey algorithm [2]_ is used by cpplex to achieve this.
+A discrete Fourier transform is classed as a fast Fourier transform if it is able to perform the above transform in :math:`O(n\log(n))` time. The Cooley-Tukey algorithm [2]_ is used by cpplex to achieve this.
 
 **Example**
 
