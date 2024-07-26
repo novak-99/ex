@@ -2,13 +2,19 @@
 polar
 =====
 
-.. cpp:function:: constexpr double polar(const Complex& z) noexcept
+.. cpp:function:: constexpr double polar(const double r, const double theta) noexcept
 
-   Returns the complex conjugates [1]_ of a complex number :math:`z`.
+   Returns a complex number given a magnitude :math:`r` and a phase angle :math:`theta`.
 
 **Parameters**
 
-   .. cpp:var:: const Complex& z
+    .. cpp:var:: const double r
+
+        A real number. 
+
+    .. cpp:var:: const double theta
+
+        A real number. 
 
 **Returns**
 
@@ -16,32 +22,27 @@ polar
 
         A complex number. 
 
-The conjugate of a complex number is defined as:
+A complex number may be obtained from a magnitude :math:`r` and a phase angle :math:`theta` by evaluating the following:
 
 .. math::
 
-   \newcommand{\compconj}[1]{%
-   \overline{#1}%
-   }
-
-   \compconj{z} = x - iy
-
-for :math:`\Re(z) = x` and :math:`\Im(z) = y`.
+   z = r\cos\theta + ir\sin\theta
 
 **Example**
 
 .. code-block:: cpp
 
-   Complex z = 3 + 4_j;
-   std::cout << conj(z) << "\n";
+    double r = 4; 
+    double theta = 0.5; 
+    std::cout << polar(r, theta) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   3 - 4j
+   3.51033 + 1.9177j
 
 **References**
 
-.. [1] "Complex conjugate", Wikipedia,
-        https://en.wikipedia.org/wiki/Complex_conjugate
+.. [1] "Polar coordinate system", Wikipedia,
+        https://en.wikipedia.org/wiki/Polar_coordinate_system

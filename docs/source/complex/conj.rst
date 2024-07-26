@@ -10,6 +10,8 @@ conj
 
    .. cpp:var:: const Complex& z
 
+        A complex number. 
+        
 **Returns**
 
     .. cpp:type:: Complex
