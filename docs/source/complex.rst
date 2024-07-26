@@ -30,6 +30,11 @@ Non-member Functions
    complex/realNonmember
    complex/imNonmember
    complex/mod
+   complex/arg
+   complex/norm
+   complex/conj
+   complex/dot
+   complex/proj
    
 **Example**
 
