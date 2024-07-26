@@ -22,7 +22,7 @@ polar
 
         A complex number. 
 
-A complex number may be obtained from a magnitude :math:`r` and a phase angle :math:`theta` by evaluating the following:
+A complex number may be obtained from a magnitude :math:`r` and a phase angle :math:`\theta` by evaluating the following:
 
 .. math::
 
