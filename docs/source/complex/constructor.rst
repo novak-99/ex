@@ -42,8 +42,3 @@ Output:
 .. code-block:: cpp
 
     5 + 4j
-
-**References**
-
-.. [1] "Gauss–Kronrod quadrature formula", Wikipedia,
-        https://en.wikipedia.org/wiki/Gauss%E2%80%93Kronrod_quadrature_formula
