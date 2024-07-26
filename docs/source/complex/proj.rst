@@ -1,5 +1,5 @@
 
-conj
+proj
 =====
 
 .. cpp:function:: constexpr double conj(const Complex& z) noexcept

@@ -1,8 +1,8 @@
 
-conj
+polar
 =====
 
-.. cpp:function:: constexpr double conj(const Complex& z) noexcept
+.. cpp:function:: constexpr double polar(const Complex& z) noexcept
 
    Returns the complex conjugates [1]_ of a complex number :math:`z`.
 
