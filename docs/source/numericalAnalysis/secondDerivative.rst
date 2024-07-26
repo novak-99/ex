@@ -1,5 +1,5 @@
 
-SecondDerivative
+secondDerivative
 =====
 
 .. cpp:function:: constexpr Complex secondDerivative(Complex (*f)(Complex), const Complex& z) noexcept

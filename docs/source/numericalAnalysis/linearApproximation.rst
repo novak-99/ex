@@ -1,5 +1,5 @@
 
-LinearApproximation
+linearApproximation
 =====
 
 .. cpp:function:: constexpr Complex linearApproximation(Complex (*f)(Complex), const Complex& z) noexcept

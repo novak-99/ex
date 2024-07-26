@@ -1,5 +1,5 @@
 
-GradientDescent
+gradientDescent
 =====
 
 .. cpp:function:: constexpr Complex gradientDescent(Complex (*f)(Complex), const Complex& z0, const double alpha, const int epochs) noexcept

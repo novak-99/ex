@@ -1,5 +1,5 @@
 
-Integral
+integral
 =====
 
 .. cpp:function:: constexpr Complex integral(Complex (*f)(Complex,  const std::vector<Complex (*)(Complex)>& fargs, std::vector<Complex>), const Complex& a, const Complex& b) noexcept

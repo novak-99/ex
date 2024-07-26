@@ -1,5 +1,5 @@
 
-HalleysMethod
+halleysMethod
 =====
 
 .. cpp:function:: constexpr Complex halleysMethod(Complex (*f)(Complex), const Complex& z0, const double alpha, const int epochs) noexcept

@@ -1,5 +1,5 @@
 
-QuadraticApproximation
+quadraticApproximation
 =====
 
 .. cpp:function:: constexpr Complex quadraticApproximation(Complex (*f)(Complex), const Complex& z) noexcept
