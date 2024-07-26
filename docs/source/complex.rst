@@ -3,6 +3,21 @@ Complex
 
 .. cpp:class:: Complex
 
+   The cpplex complex data type. 
+
+
+
+Functions
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   complex/constructor
+
+Non-member Functions
+--------
+
 **Example**
 
 .. code-block:: cpp
