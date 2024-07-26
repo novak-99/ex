@@ -29,6 +29,7 @@ Non-member Functions
 
    complex/realNonmember
    complex/imNonmember
+   complex/mod
    
 **Example**
 
