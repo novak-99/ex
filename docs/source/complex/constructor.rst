@@ -6,7 +6,8 @@ constructor
 .. cpp:function:: constexpr Complex(const double x) noexcept
 .. cpp:function:: constexpr Complex(const double x, const double y) noexcept
 .. cpp:function:: constexpr Complex(const Complex& z) noexcept
-.. cpp:function:: template <class T> constexpr \ Complex(const std::complex<T>& z) noexcept
+.. cpp:function:: template <class T> \ 
+                  constexpr Complex(const std::complex<T>& z) noexcept
 
    Instantiates an object for the :code:`Complex` class.
 

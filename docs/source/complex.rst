@@ -14,6 +14,10 @@ Functions
    :maxdepth: 2
 
    complex/constructor
+   complex/getX
+   complex/getY
+   complex/setX
+   complex/setY
 
 Non-member Functions
 --------
