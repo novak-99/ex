@@ -28,7 +28,7 @@ constructor
 
         A standard C++ complex number.
 
-Initializes a :code:`Complex` object with real and imaginary components. If unspecified by the user, the respective component will be set to :code:`0`.
+Initializes a :code:`Complex` object with real and imaginary components. If unspecified by the user, the respective component will be set to :math:`0`.
 
 **Example**
 
