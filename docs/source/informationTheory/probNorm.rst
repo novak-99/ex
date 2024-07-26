@@ -2,7 +2,7 @@
 probNorm
 =====
 
-.. cpp:function:: constexpr std::vector<double> probNorm(const std::vector<double>& X){
+.. cpp:function:: constexpr std::vector<double> probNorm(const std::vector<double>& X)
 
    Normalizes a sequence.
 
