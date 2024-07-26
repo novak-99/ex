@@ -30,13 +30,13 @@ for :math:`\Re(z) = x` and :math:`\Im(z) = y`.
 .. code-block:: cpp
 
    Complex z = 3 + 4_j;
-   std::cout << conj(z) << "\n";
+   std::cout << exp(z) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   3 - 4j
+   -13.1288 - 15.2008j
 
 **References**
 
