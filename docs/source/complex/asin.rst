@@ -21,7 +21,7 @@ asin
 The inverse sine function of a complex number is defined as:
 
 .. math::
-   \sin^{-1}(z) =  -i \log(iz + \sqrt{1 - z^2})
+   \sin^{-1}z =  -i \log(iz + \sqrt{1 - z^2})
 
 **Example**
 

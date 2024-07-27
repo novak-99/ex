@@ -22,7 +22,7 @@ The inverse tangent function of a complex number is defined as:
 
 .. math::
 
-   \tan^{-1}(z) =  \frac{1}{2}i(\log((1 - iz) - \log(1 + iz)))
+   \tan^{-1}z =  \frac{1}{2}i(\log((1 - iz) - \log(1 + iz)))
 
 **Example**
 

@@ -21,7 +21,7 @@ acos
 The inverse cosine function of a complex number is defined as:
 
 .. math::
-   \cos^{-1}(z) =  \frac{1}{2}\pi + i \log(iz + \sqrt{1 - z^2})
+   \cos^{-1}z =  \frac{1}{2}\pi + i \log(iz + \sqrt{1 - z^2})
 
 **Example**
 
