@@ -30,6 +30,7 @@ Non-member Functions
 .. toctree::
    :maxdepth: 2
 
+   complex/operatorsNonmember
    complex/realNonmember
    complex/imNonmember
    complex/mod

@@ -8,7 +8,7 @@ operators
 
 .. cpp:function:: constexpr Complex& operator=(const double alpha) noexcept
 
-   Sets a complex number equal to a real number :math:`\alpha`.
+   Sets a complex number equal to a real number :math:`\alpha + 0i`.
 
 .. cpp:function:: constexpr Complex& operator+=(const Complex& z) noexcept
 
