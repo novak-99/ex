@@ -21,7 +21,7 @@ exp
 The exponential of a complex number is defined as:
 
 .. math::
-    \exp(x)\exp(\cosy + i\siny)
+    \exp(x)\exp(\cos y + i\sin y)
 
 for :math:`\Re(z) = x` and :math:`\Im(z) = y`.
 
