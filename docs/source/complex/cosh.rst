@@ -21,6 +21,7 @@ cosh
 The cosh function of a complex number is defined as:
 
 .. math::
+   
    \cosh z = \cosh x \cos y + i\sinh x \sin y
 
 for :math:`\Re(z) = x` and :math:`\Im(z) = y`.

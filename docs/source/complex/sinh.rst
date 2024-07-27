@@ -21,6 +21,7 @@ sinh
 The sinh function of a complex number is defined as:
 
 .. math::
+   
    \sinh z = \sinh x \cos y + i\cosh x \sin y
 
 for :math:`\Re(z) = x` and :math:`\Im(z) = y`.

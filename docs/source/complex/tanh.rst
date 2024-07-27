@@ -21,6 +21,7 @@ tanh
 The sinh function of a complex number is defined as:
 
 .. math::
+   
    \tanh z = \frac{\sinh z}{\cosh z}
 
 **Example**
