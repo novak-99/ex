@@ -47,10 +47,10 @@ operators
    .. cpp:var:: const Complex& z
 
         A complex number. 
-                
+
 **Returns**
 
-    .. cpp:type:: Complex& z
+    .. cpp:type:: Complex&
 
         The complex number :code:`*this`.
 
