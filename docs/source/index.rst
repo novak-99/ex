@@ -22,5 +22,7 @@ Contents
    signal
    transforms
    informationTheory
+   continuousDistribution
+   discreteDistribution
    special
    constants
