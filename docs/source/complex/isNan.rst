@@ -28,4 +28,5 @@ isNan
 Output:
 
 .. code-block:: cpp
+   
    1
