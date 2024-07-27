@@ -1,10 +1,10 @@
 
-sinh
+cosh
 =====
 
-.. cpp:function:: constexpr Complex sinh(const Complex& z) noexcept
+.. cpp:function:: constexpr Complex cosh(const Complex& z) noexcept
 
-   Returns the complex sinh [1]_ of a complex number :math:`z`.
+   Returns the complex cosh [1]_ of a complex number :math:`z`.
 
 **Parameters**
 
@@ -18,10 +18,10 @@ sinh
 
         A complex number. 
 
-The sinh function of a complex number is defined as:
+The cosh function of a complex number is defined as:
 
 .. math::
-   \sinh z = \sinh x \cosh y - i\sin x \sinh y
+   \cosh z = \sinh x \cosh y - i\sin x \sinh y
 
 for :math:`\Re(z) = x` and :math:`\Im(z) = y`.
 
@@ -30,13 +30,13 @@ for :math:`\Re(z) = x` and :math:`\Im(z) = y`.
 .. code-block:: cpp
 
    Complex z = 3 + 4_j;
-   std::cout << sinh(z) << "\n";
+   std::cout << cosh(z) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   -6.54812 - 7.61923j
+   -6.58066 - 7.58155j
 
 **References**
 

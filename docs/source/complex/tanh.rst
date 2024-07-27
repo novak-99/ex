@@ -1,10 +1,10 @@
 
-sinh
+tanh
 =====
 
-.. cpp:function:: constexpr Complex sinh(const Complex& z) noexcept
+.. cpp:function:: constexpr Complex tanh(const Complex& z) noexcept
 
-   Returns the complex sinh [1]_ of a complex number :math:`z`.
+   Returns the complex tanh [1]_ of a complex number :math:`z`.
 
 **Parameters**
 
@@ -21,22 +21,20 @@ sinh
 The sinh function of a complex number is defined as:
 
 .. math::
-   \sinh z = \sinh x \cosh y - i\sin x \sinh y
-
-for :math:`\Re(z) = x` and :math:`\Im(z) = y`.
+   \tanh z = \frac{\sinh z}{\cosh z}
 
 **Example**
 
 .. code-block:: cpp
 
    Complex z = 3 + 4_j;
-   std::cout << sinh(z) << "\n";
+   std::cout << tanh(z) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   -6.54812 - 7.61923j
+   1.00071 + 0.00490826j
 
 **References**
 
