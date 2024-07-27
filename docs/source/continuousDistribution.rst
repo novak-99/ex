@@ -5,6 +5,14 @@ ContinuousDistribution
 
    The generic cpplex continuous distribution type.
 
+This module implements various complex continuous distributions.
+
+Defined in header :code:`<ContinuousDistribution/ContinuousDistribution.hpp>`.
+
+.. note::
+
+   All complex continuous distribution classes make the assumption that the real and complex components are an independent, joint distribution. 
+
 Functions
 --------
 
