@@ -1,5 +1,5 @@
 
-sinh
+asinh
 =====
 
 .. cpp:function:: constexpr Complex asinh(const Complex& z) noexcept
