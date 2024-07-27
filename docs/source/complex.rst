@@ -23,6 +23,7 @@ Functions
    complex/real
    complex/im
    complex/operators
+   complex/std
 
 Non-member Functions
 --------
