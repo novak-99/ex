@@ -71,8 +71,3 @@ Output:
 .. code-block:: cpp
 
    4 - 5j
-
-**References**
-
-.. [1] "Sine and cosine", Wikipedia,
-        https://en.wikipedia.org/wiki/Sine_and_cosine
