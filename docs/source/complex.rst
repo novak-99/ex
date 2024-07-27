@@ -38,6 +38,12 @@ Non-member Functions
    complex/polar
    complex/exp
    complex/log
+   complex/log10
+   complex/pow
+   complex/sqrt
+   complex/sin
+   complex/cos
+   complex/tan
    
 **Example**
 
