@@ -7,6 +7,8 @@ Complex
 
 This class defines the libray's complex data type. To initialize it, you may use its various constructors, the standard C++ complex literal :code:`i`, or our complex literal :code:`_j`.
 
+Defined in header :code:`<Complex/Complex.hpp>`.
+
 Functions
 --------
 

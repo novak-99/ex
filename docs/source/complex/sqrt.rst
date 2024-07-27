@@ -30,13 +30,13 @@ The square root of a complex number is defined as:
 .. code-block:: cpp
 
    Complex z = 3 + 4_j;
-   std::cout << exp(z) << "\n";
+   std::cout << sqrt(z) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   -13.1288 - 15.2008j
+   2 + 1j
 
 **References**
 
