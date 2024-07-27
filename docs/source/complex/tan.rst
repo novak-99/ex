@@ -18,7 +18,7 @@ tan
 
         A complex number. 
 
-The sin function of a complex number is defined as:
+The tan function of a complex number is defined as:
 
 .. math::
    \tan z = \frac{\sin z}{\cos z}

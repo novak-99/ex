@@ -18,7 +18,7 @@ cos
 
         A complex number. 
 
-The sin function of a complex number is defined as:
+The cos function of a complex number is defined as:
 
 .. math::
    \sin z = \cos x \cosh y + i\sin x \sinh y
