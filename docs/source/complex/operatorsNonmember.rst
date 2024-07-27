@@ -86,7 +86,7 @@ operators
 
    Serializes a complex number.
 
-.. cpp:function:: constexpr std::istream& operator>> (std::istream& istream, const Complex& z) noexcept
+.. cpp:function:: constexpr std::istream& operator>> (std::istream& istream, Complex& z) noexcept
 
    Deserializes a complex number.
 
@@ -134,7 +134,7 @@ operators
 
         A complex number. 
 
-This module defines 2 assignment operators and 8 compound assignment operators for complex addition, subtraction, multiplication, and division.
+Includes various key operators for complex numbers.
 
 **Example**
 
