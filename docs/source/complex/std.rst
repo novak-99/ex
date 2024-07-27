@@ -4,7 +4,7 @@ std
 
 .. cpp:function:: constexpr std::complex<double> std() noexcept
 
-   Converts a :code:`cpplex::Complex` object to a :code:`std::complex<double>` object.
+   Converts a :code:`cpplex::Complex` object into a :code:`std::complex<double>` object.
 
 **Returns**
 

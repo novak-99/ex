@@ -103,6 +103,30 @@ operators
    .. cpp:var:: const Complex& z
 
         A complex number. 
+
+   .. cpp:var:: const Complex& z1
+
+        A complex number. 
+
+   .. cpp:var:: const Complex& z2
+
+        A complex number. 
+
+   .. cpp:var:: std::ostream& ostream
+
+        An output stream object.
+
+   .. cpp:var:: std::istream& istream
+
+        An input stream object.  
+
+   .. cpp:var:: const unsigned long long y
+
+        A real number.
+
+   .. cpp:var:: const long double y
+
+        A real number.
         
 **Returns**
 
