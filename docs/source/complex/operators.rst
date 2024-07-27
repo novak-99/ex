@@ -50,9 +50,9 @@ operators
         
 **Returns**
 
-    .. cpp:type:: Complex
+    .. cpp:type:: Complex& z
 
-        A complex number. 
+        The complex number :code:`*this`.
 
 This module defines 2 assignment operators and 8 compound assignment operators for complex addition, subtraction, multiplication, and division.
 
