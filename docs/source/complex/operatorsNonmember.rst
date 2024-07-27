@@ -124,8 +124,3 @@ Output:
 .. code-block:: cpp
 
    8 + 4j
-
-**References**
-
-.. [1] "Sine and cosine", Wikipedia,
-        https://en.wikipedia.org/wiki/Sine_and_cosine
