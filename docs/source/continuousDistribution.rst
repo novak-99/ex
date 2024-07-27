@@ -28,7 +28,7 @@ Functions
 
 .. cpp:function:: virtual constexpr double entropy() const noexcept = 0
 
-Child Classes
+Distributions
 --------
 
     .. cpp:class:: Cauchy : public ContinuousDistribution
