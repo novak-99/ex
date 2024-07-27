@@ -57,7 +57,7 @@ Non-member Functions
    complex/atanh
    complex/sgn
    complex/rootsOfUnity
-   complex/isnan
+   complex/isNan
    
 **Example**
 
