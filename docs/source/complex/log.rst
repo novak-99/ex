@@ -24,22 +24,20 @@ The logarithm of a complex number is defined as:
    \DeclareMathOperator\arg{arg}
    \log(z) = \ln(|z|) + i\arg(z)
 
-for :math:`\Re(z) = x` and :math:`\Im(z) = y`.
-
 **Example**
 
 .. code-block:: cpp
 
    Complex z = 3 + 4_j;
-   std::cout << exp(z) << "\n";
+   std::cout << log(z) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   -13.1288 - 15.2008j
+   1.60944 + 0.927295j
 
 **References**
 
-.. [1] "Exponential function", Wikipedia,
-        https://en.wikipedia.org/wiki/Exponential_function
+.. [1] "Complex logarithm", Wikipedia,
+        https://en.wikipedia.org/wiki/Complex_logarithm
