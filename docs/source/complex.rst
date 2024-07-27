@@ -37,6 +37,7 @@ Non-member Functions
    complex/proj
    complex/polar
    complex/exp
+   complex/log
    
 **Example**
 
