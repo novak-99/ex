@@ -2,45 +2,101 @@
 operators
 =====
 
-.. cpp:function:: constexpr Complex& operator=(const Complex& z) noexcept
+.. cpp:function:: constexpr Complex operator+(const Complex& z) noexcept
 
-   Sets a complex number equal to another complex number :math:`z`.
+   Unary positive operator.
 
-.. cpp:function:: constexpr Complex& operator=(const double alpha) noexcept
+.. cpp:function:: constexpr Complex operator-(const Complex& z) noexcept
 
-   Sets a complex number equal to a real number :math:`\alpha + 0i`.
+   Unary negative operator.
 
-.. cpp:function:: constexpr Complex& operator+=(const Complex& z) noexcept
+.. cpp:function:: constexpr Complex operator+(const Complex& z1, const Complex& z2) noexcept
 
-   Compound assignment addition operator for a complex number :math:`z`.
+   Arithmetic addition operator between two complex numbers.
 
-.. cpp:function:: constexpr Complex& operator-=(const Complex& z) noexcept
+.. cpp:function:: constexpr Complex operator-(const Complex& z1, const Complex& z2) noexcept
 
-   Compound assignment subtraction operator for a complex number :math:`z`.
+   Arithmetic subtraction operator between two complex numbers.
 
-.. cpp:function:: constexpr Complex& operator*=(const Complex& z) noexcept
+.. cpp:function:: constexpr Complex operator*(const Complex& z1, const Complex& z2) noexcept
 
-   Compound assignment multiplication operator for a complex number :math:`z`.
+   Arithmetic multiplication operator between two complex numbers.
 
-.. cpp:function:: constexpr Complex& operator/=(const Complex& z) noexcept
+.. cpp:function:: constexpr Complex operator/(const Complex& z1, const Complex& z2) noexcept
 
-   Compound assignment division operator for a complex number :math:`z`.
+   Arithmetic division operator between two complex numbers.
 
-.. cpp:function:: constexpr Complex& operator+=(const Complex& alpha) noexcept
+.. cpp:function:: constexpr Complex operator+(const Complex& z, const double alpha) noexcept
 
-   Compound assignment addition operator for a real number :math:`\alpha`.
+   Arithmetic addition operator between a complex number and a real number.
 
-.. cpp:function:: constexpr Complex& operator-=(const Complex& alpha) noexcept
+.. cpp:function:: constexpr Complex operator-(const Complex& z, const double alpha) noexcept
 
-   Compound assignment subtraction operator for a real number :math:`\alpha`.
+   Arithmetic subtraction operator between a complex number and a real number.
 
-.. cpp:function:: constexpr Complex& operator*=(const Complex& alpha) noexcept
+.. cpp:function:: constexpr Complex operator*(const Complex& z, const double alpha) noexcept
 
-   Compound assignment multiplication operator for a real number :math:`\alpha`.
+   Arithmetic multiplication operator between a complex number and a real number.
 
-.. cpp:function:: constexpr Complex& operator/=(const Complex& alpha) noexcept
+.. cpp:function:: constexpr Complex operator/(const Complex& z, const double alpha) noexcept
 
-   Compound assignment division operator for a real number :math:`\alpha`.
+   Arithmetic division operator between a complex number and a real number.
+
+.. cpp:function:: constexpr Complex operator+(const double alpha, const Complex& z) noexcept
+
+   Arithmetic addition operator between a complex number and a real number.
+
+.. cpp:function:: constexpr Complex operator-(const double alpha, const Complex& z) noexcept
+
+   Arithmetic subtraction operator between a complex number and a real number.
+
+.. cpp:function:: constexpr Complex operator*(const double alpha, const Complex& z) noexcept
+
+   Arithmetic multiplication operator between a complex number and a real number.
+
+.. cpp:function:: constexpr Complex operator/(const double alpha, const Complex& z) noexcept
+
+   Arithmetic division operator between a complex number and a real number.
+
+.. cpp:function:: constexpr bool operator==(const Complex& z1, const Complex& z2) noexcept
+
+   Equality operator between two complex numbers.
+
+.. cpp:function:: constexpr bool operator==(const Complex& z, const double alpha) noexcept
+
+   Equality operator between a complex number and a real number.
+
+.. cpp:function:: constexpr bool operator==(const double alpha, const Complex& z) noexcept
+
+   Equality operator between a complex number and a real number.
+
+.. cpp:function:: constexpr bool operator!=(const Complex& z1, const Complex& z2) noexcept
+
+   Inequality operator between two complex numbers.
+
+.. cpp:function:: constexpr bool operator!=(const Complex& z, const double alpha) noexcept
+
+   Inequality operator between a complex number and a real number.
+
+.. cpp:function:: constexpr bool operator!=(const double alpha, const Complex& z) noexcept
+
+   Inequality operator between a complex number and a real number.
+
+.. cpp:function:: constexpr std::ostream& operator<< (std::ostream& ostream, const Complex& z) noexcept
+
+   Serializes a complex number.
+
+.. cpp:function:: constexpr std::istream& operator>> (std::istream& istream, const Complex& z) noexcept
+
+   Deserializes a complex number.
+
+.. cpp:function:: Complex operator "" _j(const unsigned long long y) noexcept
+
+   The cpplex complex literal :code:`_j`.
+
+.. cpp:function:: Complex operator "" _j(const long double y) noexcept
+
+   The cpplex complex literal :code:`_j`.
 
 **Parameters**
 
@@ -61,16 +117,13 @@ This module defines 2 assignment operators and 8 compound assignment operators f
 .. code-block:: cpp
 
    Complex z = 3 + 4_j;
-   z += 2; 
-   z /= 2_j;
-   z *= 2;
-   std::cout << z << "\n";
+   std::cout << z + 5 << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-   4 - 5j
+   8 + 4j
 
 **References**
 
