@@ -14,7 +14,7 @@ isNan
         
 **Returns**
 
-    .. cpp:type:: std::vector<Complex>
+    .. cpp:type:: bool
 
         A boolean.
 
