@@ -55,7 +55,7 @@ Non-member Functions
    complex/asinh
    complex/acosh
    complex/atanh
-   complex/sign
+   complex/sgn
    complex/rootsOfUnity
    complex/isnan
    
