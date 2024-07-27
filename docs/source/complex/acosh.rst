@@ -22,7 +22,7 @@ The inverse cosh function of a complex number is defined as:
 
 .. math::
 
-   \cosh{^-1}z = \log(z + \sqrt{z^2 - 1})
+   \cosh^{-1}z = \log(z + \sqrt{z^2 - 1})
 
 **Example**
 
