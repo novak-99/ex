@@ -44,6 +44,18 @@ Non-member Functions
    complex/sin
    complex/cos
    complex/tan
+   complex/asin
+   complex/acos
+   complex/atan
+   complex/sinh
+   complex/cosh
+   complex/tanh
+   complex/asinh
+   complex/acosh
+   complex/atanh
+   complex/sign
+   complex/rootsOfUnity
+   complex/isnan
    
 **Example**
 
