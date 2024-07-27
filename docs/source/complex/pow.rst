@@ -1,5 +1,5 @@
 
-log
+pow
 =====
 
 .. cpp:function:: constexpr Complex pow(const Complex& z1, const Complex& z2) noexcept
