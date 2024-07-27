@@ -21,9 +21,9 @@ sqrt
 The square root of a complex number is defined as:
 
 .. math::
-   
+
    \DeclareMathOperator\arg{arg}
-   \sqrt{|z|}(\cos{\frac{\arg(z)}{2} + i\sin{\frac{\arg(z)}{2}})
+   \sqrt{|z|}(\cos{\frac{\arg(z)}{2}} + i\sin{\frac{\arg(z)}{2}})
 
 **Example**
 
