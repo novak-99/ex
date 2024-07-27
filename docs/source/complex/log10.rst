@@ -22,7 +22,7 @@ The common logarithm of a complex number is defined as:
 
 .. math::
    \DeclareMathOperator\arg{arg}
-   \log_10(z) = \frac{log(z)}{log(10)}
+   \log_{10}(z) = \frac{\log(z)}{\log(10)}
 
 **Example**
 
