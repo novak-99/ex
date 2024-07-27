@@ -31,18 +31,18 @@ Functions
 Distributions
 --------
 
-    .. cpp:class:: ContinuousDistribution : public ContinuousDistribution
-    .. cpp:class:: Chi : public ContinuousDistribution
-    .. cpp:class:: ChiSquared : public ContinuousDistribution
-    .. cpp:class:: Exponential : public ContinuousDistribution
-    .. cpp:class:: Gamma : public ContinuousDistribution
-    .. cpp:class:: Laplace : public ContinuousDistribution
-    .. cpp:class:: Logistic : public ContinuousDistribution
-    .. cpp:class:: LogNormal : public ContinuousDistribution
-    .. cpp:class:: MaxwellBoltzman : public ContinuousDistribution
-    .. cpp:class:: Normal : public ContinuousDistribution
-    .. cpp:class:: Pareto : public ContinuousDistribution
-    .. cpp:class:: Rayleigh : public ContinuousDistribution
-    .. cpp:class:: Triangular : public ContinuousDistribution
-    .. cpp:class:: Uniform : public ContinuousDistribution
-    .. cpp:class:: Weibull : public ContinuousDistribution
+.. cpp:class:: ContinuousDistribution : public ContinuousDistribution
+.. cpp:class:: Chi : public ContinuousDistribution
+.. cpp:class:: ChiSquared : public ContinuousDistribution
+.. cpp:class:: Exponential : public ContinuousDistribution
+.. cpp:class:: Gamma : public ContinuousDistribution
+.. cpp:class:: Laplace : public ContinuousDistribution
+.. cpp:class:: Logistic : public ContinuousDistribution
+.. cpp:class:: LogNormal : public ContinuousDistribution
+.. cpp:class:: MaxwellBoltzman : public ContinuousDistribution
+.. cpp:class:: Normal : public ContinuousDistribution
+.. cpp:class:: Pareto : public ContinuousDistribution
+.. cpp:class:: Rayleigh : public ContinuousDistribution
+.. cpp:class:: Triangular : public ContinuousDistribution
+.. cpp:class:: Uniform : public ContinuousDistribution
+.. cpp:class:: Weibull : public ContinuousDistribution

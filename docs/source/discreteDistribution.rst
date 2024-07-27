@@ -31,8 +31,8 @@ Functions
 Distributions
 --------
 
-    .. cpp:class:: Bernoulli : public DiscreteDistribution
-    .. cpp:class:: Binomial : public DiscreteDistribution
-    .. cpp:class:: Geometric : public DiscreteDistribution
-    .. cpp:class:: NegativeBinomial : public DiscreteDistribution
-    .. cpp:class:: Poisson : public DiscreteDistribution
+.. cpp:class:: Bernoulli : public DiscreteDistribution
+.. cpp:class:: Binomial : public DiscreteDistribution
+.. cpp:class:: Geometric : public DiscreteDistribution
+.. cpp:class:: NegativeBinomial : public DiscreteDistribution
+.. cpp:class:: Poisson : public DiscreteDistribution
