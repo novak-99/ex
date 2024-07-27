@@ -34,7 +34,7 @@ Output:
 
 .. code-block:: cpp
 
-   3.85374 - 27.0168j
+   -0.633984 - 2.30551j
 
 **References**
 
