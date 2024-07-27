@@ -22,6 +22,7 @@ Functions
    complex/getY
    complex/real
    complex/im
+   complex/operators
 
 Non-member Functions
 --------
