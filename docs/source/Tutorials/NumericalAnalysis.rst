@@ -108,7 +108,7 @@ Output:
     0.5 + 0j
     0.479426 + 0j
 
-Finally, the numerical analysis module contians tools for root-finding and optimization. Here, we demonstrate Newton's method, using :math:`1000` epochs and an initial guess of :math:`2i`:
+Finally, the numerical analysis module contains tools for root-finding and optimization. Here, we demonstrate Newton's method, using :math:`1000` epochs and an initial guess of :math:`2i`:
 
 .. code-block:: cpp
 
