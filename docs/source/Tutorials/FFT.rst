@@ -136,16 +136,16 @@ Output:
 
 .. code-block:: cpp
 
-19.2444 + 10.8944j
--17.7217 - 1.73903j
-7 - 6j
--3.40288 - 6.44131j
--0.119773 + 3.28594j
+    19.2444 + 10.8944j
+    -17.7217 - 1.73903j
+    7 - 6j
+    -3.40288 - 6.44131j
+    -0.119773 + 3.28594j
 
-23.3338 + 9.82328j
--4.60149 + 5.27636j
-2 - 7j
--0.454238 - 2.33209j
--0.38957 + 5.12099j
+    23.3338 + 9.82328j
+    -4.60149 + 5.27636j
+    2 - 7j
+    -0.454238 - 2.33209j
+    -0.38957 + 5.12099j
 
 Many more discrete transforms with the same mechanics are also implemented in this module. Please see the documentation for more details.
