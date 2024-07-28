@@ -4,7 +4,7 @@ im
 
 .. cpp:function:: constexpr double im() const noexcept
 
-   Gets the imaginary component :code:`x`.
+   Gets the imaginary component :code:`y`.
 
 **Returns**
 

@@ -4,7 +4,7 @@ getY
 
 .. cpp:function:: constexpr double getY() const noexcept
 
-   Gets the real component :code:`x`.
+   Gets the imaginary component :code:`y`.
 
 **Returns**
 
