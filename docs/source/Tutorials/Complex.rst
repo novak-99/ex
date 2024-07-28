@@ -110,3 +110,33 @@ Output:
     2 + 14j
     8 + 6j
     -4 - 3j
+
+Finally, the complex module also contains various useful non-member functions that can aid in complex analysis. Here a few examples:
+
+.. code-block:: cpp
+
+    #include <Complex/Complex.hpp>
+    #include <iostream>
+    using namespace std::complex_literals; // for C++'s literals
+    
+    int main(){
+        Complex z1 = 4 + 3_j; 
+        Complex z2 = 2 + 2_j;
+        std::cout <<  sin(z1) << "\n";
+        std::cout << conj(z1) << "\n";
+        std::cout << dot(z1, z2) << "\n";
+        std::cout << pow(z1, z2) << "\n";
+
+        return 0;
+    }
+
+Output:
+
+.. code-block:: cpp
+
+    -7.61923 - 6.54812j
+    4 - 3j
+    14
+    -1.41532 - 6.75577j
+
+There are, however, many, many more of these functions available in the complex module. The full list with more details on each function is available in the documentation.
