@@ -17,7 +17,7 @@ Let's begin by importanting the correct header file and creating a complex objec
 
 The above code creates a complex number :math:`z = 4 + 3i`.
 
-If you prefer to use complex literals, you may either use cpplex's complex literal :code:`_j`, or C++'s complex literal :code:`i`:
+If you prefer to use complex literals, you may either use cpplex's complex literal :code:`_j` or C++'s complex literal :code:`i`:
 
 .. code-block:: cpp
 
