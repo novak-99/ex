@@ -3,12 +3,13 @@ Complex
 
 The complex class is the basis behind cpplex as it defines its complex data type.
 
-Let's begin by importanting the correct header file and creating a complex object:
+Let's begin by importing the correct header file and creating a complex object:
 
 .. code-block:: cpp
 
     #include <Complex/Complex.hpp>
     #include <iostream>
+    
     int main(){
        Complex z(4, 3);
 
