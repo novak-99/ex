@@ -111,7 +111,7 @@ Output:
     8 + 6j
     -4 - 3j
 
-Finally, the complex module also contains various useful non-member functions that can aid in complex analysis. Here a few examples:
+Finally, the complex module also contains various useful non-member functions that can aid in complex analysis. Here are a few examples:
 
 .. code-block:: cpp
 
