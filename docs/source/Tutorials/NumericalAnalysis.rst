@@ -32,7 +32,7 @@ We have just defined a complex function :math:`f(z) = z^2`. You may also define 
        return 0;
     }
 
-We may differentiate the function above and evaluate it at the point :math:`z = 1 + 1i`, which will yield `f'(z) = 2z + 2 + 2i`.
+We may differentiate the function above and evaluate it at the point :math:`z = 1 + 1i`, which will yield :math:`f'(z) = 2z + 2 + 2i`.
 
 .. code-block:: cpp
 

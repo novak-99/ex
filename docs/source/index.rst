@@ -24,8 +24,7 @@ Regardless of whether you need tools for scientific computing, signal processing
    Tutorials/Signal
    Tutorials/Transforms
    Tutorials/InformationTheory
-   Tutorials/ContinuousDistribution
-   Tutorials/DiscreteDistribution
+   Tutorials/Distributions
    Tutorials/Special
 
 .. Contents
