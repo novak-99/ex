@@ -1,5 +1,5 @@
 
-Hv1
+hv1
 =====
 
 .. cpp:function:: constexpr Complex hv1(const double v, const Complex& z) noexcept

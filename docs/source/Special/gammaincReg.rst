@@ -1,5 +1,5 @@
 
-GammaincReg
+gammaincReg
 =====
 
 .. cpp:function:: constexpr double gammaincReg(const double a, const double x) noexcept

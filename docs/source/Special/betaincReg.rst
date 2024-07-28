@@ -1,5 +1,5 @@
 
-BetaincReg
+betaincReg
 =====
 
 .. cpp:function:: constexpr double betaincReg(const double x, const double a, const double b) noexcept

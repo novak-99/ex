@@ -1,5 +1,5 @@
 
-Dawsn
+dawsn
 =====
 
 .. cpp:function:: constexpr Complex dawsn(const Complex& z) noexcept

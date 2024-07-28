@@ -1,5 +1,5 @@
 
-Beta
+beta
 =====
 
 .. cpp:function:: constexpr double Complex beta(const double a, const double b) noexcept

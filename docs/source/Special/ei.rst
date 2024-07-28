@@ -1,5 +1,5 @@
 
-Ei
+ei
 =====
 
 .. cpp:function:: constexpr Complex ei(const Complex& z) noexcept

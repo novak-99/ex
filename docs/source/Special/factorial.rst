@@ -1,5 +1,5 @@
 
-Factorial
+factorial
 =====
 
 .. cpp:function:: constexpr int factorial(const int k) noexcept

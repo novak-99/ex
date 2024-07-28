@@ -1,5 +1,5 @@
 
-Betainc
+betainc
 =====
 
 .. cpp:function:: constexpr double betainc(const double x, const double a, const double b) noexcept

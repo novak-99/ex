@@ -1,5 +1,5 @@
 
-Erfi
+erfi
 =====
 
 .. cpp:function:: inline Complex erfi(const Complex& z) noexcept

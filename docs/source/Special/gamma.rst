@@ -1,5 +1,5 @@
 
-Gamma
+gamma
 =====
 
 .. cpp:function:: constexpr Complex gamma(const Complex& z) noexcept

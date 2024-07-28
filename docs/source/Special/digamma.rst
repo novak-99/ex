@@ -1,5 +1,5 @@
 
-Digamma
+digamma
 =====
 
 .. cpp:function:: constexpr Complex digamma(const Complex& z) noexcept

@@ -1,5 +1,5 @@
 
-Alpha
+alpha
 =====
 
 .. cpp:function:: constexpr double Complex alpha(const int n, const double x) noexcept

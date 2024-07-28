@@ -1,5 +1,5 @@
 
-Erf
+erf
 =====
 
 .. cpp:function:: inline Complex erf(const Complex& z) noexcept

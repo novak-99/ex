@@ -1,5 +1,5 @@
 
-Erfcx
+erfcx
 =====
 
 .. cpp:function:: constexpr Complex erfcx(const Complex& z) noexcept
