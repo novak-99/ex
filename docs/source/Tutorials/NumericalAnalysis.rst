@@ -1,7 +1,7 @@
 NumericalAnalysis
 =====
 
-The numerical analysis module allows for numerical techniques to approach differentiation, integration, Taylor series approximations, and root-finding.
+The numerical analysis module contains numerical techniques to approach differentiation, integration, Taylor series approximations, and root-finding.
 
 Let's begin by importing the correct header file and creating a function to differentiate:
 
