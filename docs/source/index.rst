@@ -16,13 +16,13 @@ Contents
 
 .. toctree::
 
-   complex
-   numericalAnalysis
+   Complex
+   NumericalAnalysis
    FFT
-   signal
-   transforms
-   informationTheory
-   continuousDistribution
-   discreteDistribution
-   special
-   constants
+   Signal
+   Transforms
+   InformationTheory
+   ContinuousDistribution
+   DiscreteDistribution
+   Special
+   Constants
