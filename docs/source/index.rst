@@ -11,9 +11,8 @@ Regardless of whether you need tools for scientific computing, signal processing
 
    This project is under active development.
 
-Tutorials
---------
-
+.. Tutorials
+.. --------
 .. toctree::
    :maxdepth: 2
    :caption: Tutorials
@@ -29,10 +28,10 @@ Tutorials
    Tutorials/Special
    Tutorials/Constants
 
-Contents
---------
-
+.. Contents
+.. --------
 .. toctree::
+   :caption: Contents
 
    Complex
    NumericalAnalysis
