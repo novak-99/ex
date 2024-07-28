@@ -16,6 +16,7 @@ Tutorials
 
 .. toctree::
    :maxdepth: 2
+   :caption: Tutorials
 
    Tutorials/Complex
    Tutorials/NumericalAnalysis
