@@ -11,10 +11,28 @@ Regardless of whether you need tools for scientific computing, signal processing
 
    This project is under active development.
 
-Contents
---------
+.. Tutorials
+.. --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Tutorials
+
+   Tutorials/Complex
+   Tutorials/NumericalAnalysis
+   Tutorials/FFT
+   Tutorials/Signal
+   Tutorials/Transforms
+   Tutorials/InformationTheory
+   Tutorials/ContinuousDistribution
+   Tutorials/DiscreteDistribution
+   Tutorials/Special
+
+.. Contents
+.. --------
+
+.. toctree::
+   :caption: Contents
 
    Complex
    NumericalAnalysis
