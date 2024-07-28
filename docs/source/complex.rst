@@ -15,15 +15,15 @@ Functions
 .. toctree::
    :maxdepth: 2
 
-   complex/constructor
-   complex/setX
-   complex/setY
-   complex/getX
-   complex/getY
-   complex/real
-   complex/im
-   complex/operators
-   complex/std
+   Complex/constructor
+   Complex/setX
+   Complex/setY
+   Complex/getX
+   Complex/getY
+   Complex/real
+   Complex/im
+   Complex/operators
+   Complex/std
 
 Non-member Functions
 --------

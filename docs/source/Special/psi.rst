@@ -1,5 +1,5 @@
 
-Psi
+psi
 =====
 
 .. cpp:function:: constexpr Complex psi(const Complex& z) noexcept

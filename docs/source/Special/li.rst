@@ -1,5 +1,5 @@
 
-Li
+li
 =====
 
 .. cpp:function:: constexpr Complex li(const Complex& z) noexcept

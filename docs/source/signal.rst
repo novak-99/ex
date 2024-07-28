@@ -11,7 +11,7 @@ Functions
 .. toctree::
    :maxdepth: 2
 
-   signal/conv
-   signal/crosscorr
-   signal/autocorr
-   signal/inner
+   Signal/conv
+   Signal/crosscorr
+   Signal/autocorr
+   Signal/inner

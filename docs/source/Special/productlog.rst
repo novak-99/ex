@@ -1,5 +1,5 @@
 
-Productlog
+productlog
 =====
 
 .. cpp:function:: constexpr Complex productlog(const Complex& z) noexcept

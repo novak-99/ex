@@ -1,5 +1,5 @@
 
-Wofz
+wofz
 =====
 
 .. cpp:function:: constexpr Complex wofz(const Complex& z) noexcept

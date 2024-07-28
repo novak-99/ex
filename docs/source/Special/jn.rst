@@ -1,5 +1,5 @@
 
-Jn
+jn
 =====
 
 .. cpp:function:: constexpr Complex jn(const int n, const Complex& z) noexcept

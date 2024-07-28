@@ -1,5 +1,5 @@
 
-Zeta
+zeta
 =====
 
 .. cpp:function:: constexpr double zeta(const double x) noexcept

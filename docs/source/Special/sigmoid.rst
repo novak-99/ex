@@ -1,5 +1,5 @@
 
-Sigmoid
+sigmoid
 =====
 
 .. cpp:function:: constexpr Complex sigmoid(const Complex& z) noexcept

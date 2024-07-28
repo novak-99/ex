@@ -11,13 +11,13 @@ Functions
 .. toctree::
    :maxdepth: 2
 
-   numericalAnalysis/derivative
-   numericalAnalysis/secondDerivative
-   numericalAnalysis/constantApproximation
-   numericalAnalysis/linearApproximation
-   numericalAnalysis/quadraticApproximation
-   numericalAnalysis/secantMethod
-   numericalAnalysis/gradientDescent
-   numericalAnalysis/newtonsMethod
-   numericalAnalysis/halleysMethod
-   numericalAnalysis/integral
+   NumericalAnalysis/derivative
+   NumericalAnalysis/secondDerivative
+   NumericalAnalysis/constantApproximation
+   NumericalAnalysis/linearApproximation
+   NumericalAnalysis/quadraticApproximation
+   NumericalAnalysis/secantMethod
+   NumericalAnalysis/gradientDescent
+   NumericalAnalysis/newtonsMethod
+   NumericalAnalysis/halleysMethod
+   NumericalAnalysis/integral

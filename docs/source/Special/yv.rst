@@ -1,5 +1,5 @@
 
-Yv
+yv
 =====
 
 .. cpp:function:: constexpr Complex yv(const double v, const Complex& z) noexcept

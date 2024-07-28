@@ -1,5 +1,5 @@
 
-Wrightomega
+wrightomega
 =====
 
 .. cpp:function:: constexpr Complex wrightomega(const Complex& z) noexcept

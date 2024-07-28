@@ -1,5 +1,5 @@
 
-Pi
+pi
 =====
 
 .. cpp:function:: constexpr Complex pi(const Complex& z) noexcept

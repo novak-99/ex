@@ -1,5 +1,5 @@
 
-Rgamma
+rgamma
 =====
 
 .. cpp:function:: constexpr Complex rgamma(const Complex& z) noexcept

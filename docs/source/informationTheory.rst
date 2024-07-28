@@ -16,14 +16,14 @@ Functions
 .. toctree::
    :maxdepth: 2
 
-   informationTheory/probNorm
-   informationTheory/entropy
-   informationTheory/klDiv
-   informationTheory/jsDiv
-   informationTheory/shannonInformation
-   informationTheory/crossEntropy
-   informationTheory/entropyContinuous
-   informationTheory/klDivContinuous
-   informationTheory/jsDivContinuous
-   informationTheory/crossEntropyContinuous
-   informationTheory/binaryEntropy
+   InformationTheory/probNorm
+   InformationTheory/entropy
+   InformationTheory/klDiv
+   InformationTheory/jsDiv
+   InformationTheory/shannonInformation
+   InformationTheory/crossEntropy
+   InformationTheory/entropyContinuous
+   InformationTheory/klDivContinuous
+   InformationTheory/jsDivContinuous
+   InformationTheory/crossEntropyContinuous
+   InformationTheory/binaryEntropy

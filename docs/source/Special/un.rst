@@ -1,5 +1,5 @@
 
-Un
+un
 =====
 
 .. cpp:function:: constexpr Complex un(int n, const Complex& z) noexcept

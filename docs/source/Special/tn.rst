@@ -1,5 +1,5 @@
 
-Tn
+tn
 =====
 
 .. cpp:function:: constexpr Complex tn(int n, const Complex& z) noexcept

@@ -1,5 +1,5 @@
 
-Sgn
+sgn
 =====
 
 .. cpp:function:: constexpr double sgn(const double x) noexcept

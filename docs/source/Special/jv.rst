@@ -1,5 +1,5 @@
 
-Jv
+jv
 =====
 
 .. cpp:function:: constexpr Complex jv(const double v, const Complex& z) noexcept

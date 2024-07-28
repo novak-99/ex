@@ -1,5 +1,5 @@
 
-Loggamma
+loggamma
 =====
 
 .. cpp:function:: constexpr Complex loggamma(const Complex& z) noexcept
