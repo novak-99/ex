@@ -8,7 +8,7 @@ Let's begin by defining a complex sequence. This is done by using the :code:`std
 .. code-block:: cpp
 
     #include <FFT/FFT.hpp>
-    #include <Complex>
+    #include <Complex/Complex.hpp>
     #include <iostream>
     #include <vector>
 
@@ -22,7 +22,7 @@ Let's perform an FFT and print out the result:
 .. code-block:: cpp
 
     #include <FFT/FFT.hpp>
-    #include <Complex>
+    #include <Complex/Complex.hpp>
     #include <iostream>
     #include <vector>
     
@@ -51,7 +51,7 @@ Notice that if we perform an IFFT on the result of the FFT we get back the origi
 .. code-block:: cpp
 
     #include <FFT/FFT.hpp>
-    #include <Complex>
+    #include <Complex/Complex.hpp>
     #include <iostream>
     #include <vector>
 
@@ -81,7 +81,7 @@ Other transforms, including the DCT and the DST, are also included in this modul
 .. code-block:: cpp
 
     #include <FFT/FFT.hpp>
-    #include <Complex>
+    #include <Complex/Complex.hpp>
     #include <iostream>
     #include <vector>
 
@@ -122,7 +122,7 @@ Both transforms are automatically set to being of type 2. You can change this by
 .. code-block:: cpp
 
     #include <FFT/FFT.hpp>
-    #include <Complex>
+    #include <Complex/Complex.hpp>
     #include <iostream>
     #include <vector>
 
