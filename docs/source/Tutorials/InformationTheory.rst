@@ -42,10 +42,10 @@ Output:
 
    2.07944
 
-Also useful is calculating the Shannon information content of a single probability :math:`p`:. It is defined as:
+Also useful is calculating the Shannon information content of a single probability :math:`p`. It is defined as:
 
 .. math::
-    I(x) = -\log(P)
+    I(x) = -\log(p)
 
 and can be implemented by doing the following:
 
