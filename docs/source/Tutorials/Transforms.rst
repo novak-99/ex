@@ -8,6 +8,7 @@ Let's first define a function :math:`f(z) = e^{-z^2}`:
 .. code-block:: cpp
 
     #include <Transforms/Transforms.hpp>
+    #include <Complex>
     #include <iostream>
 
     int main(){
@@ -25,6 +26,7 @@ And so we can evaluate this transform for a certain :math:`z` and function :math
 .. code-block:: cpp
 
     #include <Transforms/Transforms.hpp>
+    #include <Complex>
     #include <iostream>
     
     int main(){
@@ -48,6 +50,7 @@ You may also specify the optional argument :code:`a` which corresponds to the La
 .. code-block:: cpp
 
     #include <Transforms/Transforms.hpp>
+    #include <Complex>
     #include <iostream>
     
     int main(){
@@ -76,6 +79,7 @@ can be called on two functions :math:`f` and :math:`g` for a point :math:`t` as 
 .. code-block:: cpp
 
     #include <Transforms/Transforms.hpp>
+    #include <Complex>
     #include <iostream>
 
     int main(){

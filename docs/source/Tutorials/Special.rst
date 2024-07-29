@@ -13,6 +13,7 @@ is an important function in complex analysis, and various related functions are 
 .. code-block:: cpp
 
     #include <Special/Special.hpp>
+    #include <Complex>
     #include <iostream>
 
     int main(){
@@ -46,6 +47,7 @@ is also included, as are its many variants:
 .. code-block:: cpp
 
     #include <Special/Special.hpp>
+    #include <Complex>
     #include <iostream>
     
     int main(){
@@ -74,6 +76,7 @@ Important integrals, including the Dawson and Fresnel integrals, are also includ
 .. code-block:: cpp
 
     #include <Special/Special.hpp>
+    #include <Complex>
     #include <iostream>
 
     int main(){
@@ -100,6 +103,7 @@ Finally, the Lambert W function, or productlog function, and the related Wright 
 .. code-block:: cpp
 
     #include <Special/Special.hpp>
+    #include <Complex>
     #include <iostream>
 
     int main(){

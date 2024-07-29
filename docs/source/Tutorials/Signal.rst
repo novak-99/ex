@@ -8,6 +8,7 @@ Let's define a two Complex sequences:
 .. code-block:: cpp
 
     #include <Signal/Signal.hpp>
+    #include <Complex>
     #include <iostream>
     #include <vector>
 
@@ -22,6 +23,7 @@ And apply a 1D convolution:
 .. code-block:: cpp
 
     #include <Signal/Signal.hpp>
+    #include <Complex>
     #include <iostream>
     #include <vector>
     
@@ -72,6 +74,7 @@ Where the horizontal line notation indicates the conjugate of the complex sequen
 .. code-block:: cpp
 
     #include <Signal/Signal.hpp>
+    #include <Complex>
     #include <iostream>
     #include <vector>
 
@@ -105,6 +108,7 @@ Finally, the auto-correlation operation, defined as a cross-correlation by a seq
 .. code-block:: cpp
 
     #include <Signal/Signal.hpp>
+    #include <Complex>
     #include <iostream>
     #include <vector>
 

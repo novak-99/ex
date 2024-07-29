@@ -8,6 +8,7 @@ We can first begin by creating a complex sequence:
 .. code-block:: cpp
 
     #include <InformationTheory/InformationTheory.hpp>
+    #include <Complex>
     #include <iostream>
     #include <vector>
 
@@ -26,6 +27,7 @@ The entropy of this distribution can be calculated as follows:
 .. code-block:: cpp
 
     #include <InformationTheory/InformationTheory.hpp>
+    #include <Complex>
     #include <iostream>
     #include <vector>
     
@@ -52,6 +54,7 @@ and can be implemented by doing the following:
 .. code-block:: cpp
 
     #include <InformationTheory/InformationTheory.hpp>
+    #include <Complex>
     #include <iostream>
     #include <vector>
 
@@ -73,6 +76,7 @@ The KL divergence is defined as how different one probability distribution :math
 .. code-block:: cpp
 
     #include <InformationTheory/InformationTheory.hpp>
+    #include <Complex>
     #include <iostream>
     #include <vector>
     
@@ -96,6 +100,7 @@ The information theory module also featuers continuous versions of these functio
 
     #include <InformationTheory/InformationTheory.hpp>
     #include <Constants/Constants.hpp> // for negative and positive INF.
+    #include <Complex>
     #include <iostream>
     #include <vector>
     
@@ -118,6 +123,7 @@ A continuous version of the KL divergence can also be easily implemented:
 
     #include <InformationTheory/InformationTheory.hpp>
     #include <Constants/Constants.hpp> // for negative and positive INF.
+    #include <Complex>
     #include <iostream>
     #include <vector>
     
