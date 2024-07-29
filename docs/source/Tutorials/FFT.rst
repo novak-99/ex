@@ -9,6 +9,7 @@ Let's begin by defining a complex sequence. This is done by using the :code:`std
 
     #include <FFT/FFT.hpp>
     #include <iostream>
+    #include <vector>
 
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};
@@ -21,6 +22,7 @@ Let's perform an FFT and print out the result:
 
     #include <FFT/FFT.hpp>
     #include <iostream>
+    #include <vector>
     
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};
@@ -48,6 +50,7 @@ Notice that if we perform an IFFT on the result of the FFT we get back the origi
 
     #include <FFT/FFT.hpp>
     #include <iostream>
+    #include <vector>
 
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};
@@ -76,6 +79,7 @@ Other transforms, including the DCT and the DST, are also included in this modul
 
     #include <FFT/FFT.hpp>
     #include <iostream>
+    #include <vector>
 
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};
@@ -115,6 +119,7 @@ Both transforms are automatically set to being of type 2. You can change this by
 
     #include <FFT/FFT.hpp>
     #include <iostream>
+    #include <vector>
 
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};

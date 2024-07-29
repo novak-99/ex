@@ -9,6 +9,7 @@ Let's define a two Complex sequences:
 
     #include <Signal/Signal.hpp>
     #include <iostream>
+    #include <vector>
 
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};
@@ -22,6 +23,7 @@ And apply a 1D convolution:
 
     #include <Signal/Signal.hpp>
     #include <iostream>
+    #include <vector>
     
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};
@@ -71,6 +73,7 @@ Where the horizontal line notation indicates the conjugate of the complex sequen
 
     #include <Signal/Signal.hpp>
     #include <iostream>
+    #include <vector>
 
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};
@@ -103,6 +106,7 @@ Finally, the auto-correlation operation, defined as a cross-correlation by a seq
 
     #include <Signal/Signal.hpp>
     #include <iostream>
+    #include <vector>
 
     int main(){
         std::vector<Complex> X = {1, 2 + 2_j, 3 + 4_j, 5, 6 + 1_j};

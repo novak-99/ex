@@ -1,4 +1,4 @@
-Numerical Analysis
+NumericalAnalysis
 =====
 
 This module implements various functions important to complex analysis, including differentiation, integration, and root-finding.
