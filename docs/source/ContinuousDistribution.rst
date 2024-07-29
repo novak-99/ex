@@ -64,7 +64,7 @@ Distributions
 .. code-block:: cpp
 
     // Polymorphic implementation.
-    DiscreteDistribution* dist; 
+    ContinuousDistribution* dist; 
     Complex mu = 1 + 1_j; 
     Complex s = 1 + 2_j; 
 

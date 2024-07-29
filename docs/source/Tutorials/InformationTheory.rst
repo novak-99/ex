@@ -58,6 +58,8 @@ and can be implemented by doing the following:
     int main(){
         Complex p = 0.5 + 0.5_j; 
         std::cout << shannonInformation(p) << "\n";
+
+        return 0;
     }
 
 Output:
