@@ -17,32 +17,38 @@ Each benchmark performs the operation :code:`N = 1e+9` times while compound assi
      - :code:`cpplex::Complex`
      - :code:`std::complex`
    * - :code:`operator+`
-     - 0.893
-     - 0.887
+     - 0.893s
+     - 0.887s
    * - :code:`operator-`
-     - 0.893
-     - 0.894
+     - 0.893s
+     - 0.894s
    * - :code:`operator*`
-     - 0.894
-     - 1.193
+     - 0.894s
+     - 1.193s
    * - :code:`operator/`
-     - 0.895
-     - 8.495
+     - 0.895s
+     - 8.495s
    * - :code:`mod` / :code:`abs`
-     - 0.910
-     - 0.916
+     - 0.910s
+     - 0.916s
    * - :code:`arg`
-     - 0.885
-     - 0.891
+     - 0.885s
+     - 0.891s
    * - :code:`conj`
-     - 0.917
-     - 0.910
+     - 0.917s
+     - 0.910s
    * - :code:`proj`
-     - 0.916
-     - 0.916
+     - 0.916s
+     - 0.916s
    * - :code:`polar`
-     - 0.897
-     - 0.904
+     - 0.897s
+     - 0.904s
+   * - :code:`exp`
+     - 0.911
+     - 0.9s
+   * - :code:`log`
+     - 0.901
+     - 0.896
    * - :code:`pow`
-     - 0.902
-     - 8.649
+     - 0.902s
+     - 8.649s
