@@ -44,11 +44,11 @@ Each benchmark performs the operation :code:`N = 1e+9` times while compound assi
      - 0.897s
      - 0.904s
    * - :code:`exp`
-     - 0.911
+     - 0.911s
      - 0.9s
    * - :code:`log`
-     - 0.901
-     - 0.896
+     - 0.901s
+     - 0.896s
    * - :code:`pow`
      - 0.902s
      - 8.649s
