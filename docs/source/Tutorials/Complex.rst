@@ -23,6 +23,7 @@ If you prefer to use complex literals, you may either use cpplex's complex liter
 .. code-block:: cpp
 
     #include <Complex/Complex.hpp>
+    #include <complex>
     #include <iostream>
     using namespace std::complex_literals; // for C++'s literals
     

@@ -27,8 +27,11 @@ Regardless of whether you need tools for scientific computing, signal processing
    Tutorials/Distributions
    Tutorials/Special
 
-.. Contents
-.. --------
+.. toctree::
+   :maxdepth: 2
+   :caption: Benchmarks
+
+   Benchmarks/Complex
 
 .. toctree::
    :caption: Contents
