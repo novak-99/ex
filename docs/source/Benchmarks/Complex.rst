@@ -14,11 +14,11 @@ Each benchmark performs the operation :code:`N = 1e+9` times while compound assi
    :header-rows: 1
 
    * - Function Name
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - :code:`cpplex::Complex`
+     - :code:`cpplex::Complex`
+     - :code:`std::complex`
+   * - Row 1, column 1
      -
      - Row 1, column 3
-   * - :code:`std::complex`
+   * - Row 2, column 1
      - Row 2, column 2
      - Row 2, column 3
