@@ -13,12 +13,12 @@ Each benchmark performs the operation :code:`N = 1e+9` times while compound assi
    :widths: 25 25 25
    :header-rows: 1
 
-   * - Function Name
+   * - Function
      - :code:`cpplex::Complex`
      - :code:`std::complex`
-   * - Row 1, column 1
-     -
-     - Row 1, column 3
+   * - :code:`operator+` (Complex, Complex)
+     - 0.893
+     - 0.887
    * - Row 2, column 1
      - Row 2, column 2
      - Row 2, column 3
