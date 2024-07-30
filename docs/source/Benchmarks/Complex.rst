@@ -10,15 +10,15 @@ The following table shows a list of results of benchmarks comparing operation fo
 Each benchmark performs the operation :code:`N = 1e+9` times while compound assigning to and printing a dummy variable to ensure volatility. Each benchmark is an average of 3 runs.
 
 .. list-table::
-   :widths: 25 25 50
+   :widths: 25 25 25
    :header-rows: 1
 
-   * - Heading row 1, column 1
+   * - Function Name
      - Heading row 1, column 2
      - Heading row 1, column 3
-   * - Row 1, column 1
+   * - :code:`cpplex::Complex`
      -
      - Row 1, column 3
-   * - Row 2, column 1
+   * - :code:`std::complex`
      - Row 2, column 2
      - Row 2, column 3
