@@ -5,7 +5,7 @@ Many of cpplex's operations are many times faster than those in standard C++.
 
 While this is mostly due to C++'s NaN-checking, it is important to note that for most use cases, this is unnecessary, and causes many functions to perform very slowly.
 
-The following table shows a list of results of benchmarks comparing operation for :code:`cpplex::Complex` and :code:`std::complex`. 
+The following table shows a list of results of benchmarks comparing operations for :code:`cpplex::Complex` and :code:`std::complex`. Please note that for operations with multiple definitions, the definition where all arguments are complex numbers is used for testing.
 
 Each benchmark performs the operation :code:`N = 1e+9` times while compound assigning to and printing a dummy variable to ensure volatility. Each benchmark is an average of 3 runs.
 
@@ -16,7 +16,7 @@ Each benchmark performs the operation :code:`N = 1e+9` times while compound assi
    * - Function
      - :code:`cpplex::Complex`
      - :code:`std::complex`
-   * - :code:`operator+` (Complex, Complex)
+   * - :code:`operator+`
      - 0.893
      - 0.887
    * - Row 2, column 1
