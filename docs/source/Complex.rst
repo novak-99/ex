@@ -44,6 +44,7 @@ Non-member Functions
    Complex/exp
    Complex/log
    Complex/log10
+   Complex/log2
    Complex/pow
    Complex/sqrt
    Complex/sin
