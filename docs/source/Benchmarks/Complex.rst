@@ -31,3 +31,6 @@ Each benchmark performs the operation :code:`N = 1e+9` times while compound assi
    * - :code:`mod` / :code:`abs`
      - 0.910
      - 0.916
+   * - :code:`arg`
+     - 0.885
+     - 0.891
