@@ -88,11 +88,11 @@ Runs for which cpplex's speed gains over C++ are bolded.
      - 0.9s
      - 0.9s
    * - :code:`asinh`
-     - 0.911
-     - 35.977
+     - 0.911s
+     - 35.977s
    * - :code:`acosh`
-     - 0.917
-     - 43.233
+     - 0.917s
+     - 43.233s
   * - :code:`atanh`
-     - **0.908**
-     - **25.853**
+     - 0.908s
+     - 25.853s
