@@ -25,11 +25,11 @@ Runs for which cpplex demonstrates speed gains over C++ are bolded.
      - 0.893s
      - 0.894s
    * - :code:`operator*`
-     - 0.894s
-     - 1.193s
+     - **0.894s**
+     - **1.193s**
    * - :code:`operator/`
-     - 0.895s
-     - 8.495s
+     - **0.895s**
+     - **8.495s**
    * - :code:`mod` / :code:`abs`
      - 0.910s
      - 0.916s
@@ -55,11 +55,11 @@ Runs for which cpplex demonstrates speed gains over C++ are bolded.
      - 0.901s
      - 0.905s
    * - :code:`pow`
-     - 0.902s
-     - 8.649s
+     - **0.902s**
+     - **8.649s**
    * - :code:`sqrt`
-     - 0.911s
-     - 9.134s
+     - **0.911s**
+     - **9.134s**
    * - :code:`sin`
      - 0.899s
      - 0.899s
@@ -70,14 +70,14 @@ Runs for which cpplex demonstrates speed gains over C++ are bolded.
      - 0.908s
      - 0.906s
    * - :code:`asin`
-     - 0.901s
-     - 35.928s
+     - **0.901s**
+     - **35.928s**
    * - :code:`acos`
-     - 0.906s
-     - 42.850s
+     - **0.906s**
+     - **42.850s**
    * - :code:`atan`
-     - 0.901s
-     - 25.061s
+     - **0.901s**
+     - **25.061s**
    * - :code:`sinh`
      - 0.901s
      - 0.902s
@@ -88,11 +88,11 @@ Runs for which cpplex demonstrates speed gains over C++ are bolded.
      - 0.9s
      - 0.9s
    * - :code:`asinh`
-     - 0.911s
-     - 35.977s
+     - **0.911s**
+     - **35.977s**
    * - :code:`acosh`
-     - 0.917s
-     - 43.233s
+     - **0.917s**
+     - **43.233s**
    * - :code:`atanh`
      - **0.908s**
      - **25.853s**
