@@ -58,3 +58,30 @@ Each benchmark performs the operation :code:`N = 1e+9` times while compound assi
    * - :code:`sqrt`
      - 0.911s
      - 9.134s
+   * - :code:`sin`
+     - 0.899s
+     - 0.899s
+   * - :code:`cos`
+     - 0.893s
+     - 0.896s
+   * - :code:`tan`
+     - 0.908s
+     - 0.906s
+   * - :code:`asin`
+     - 0.901s
+     - 35.928s
+   * - :code:`acos`
+     - 0.906s
+     - 42.850s
+  * - :code:`atan`
+     - 0.901s
+     - 25.061s
+   * - :code:`sinh`
+     - 0.901s
+     - 0.902s
+   * - :code:`cosh`
+     - 0.905s
+     - 0.908s
+   * - :code:`tanh`
+     - 0.9s
+     - 0.9s
