@@ -9,7 +9,7 @@ The following table shows a list of results of benchmarks comparing operations f
 
 Each benchmark performs the operation :code:`N = 1e+9` times while compound assigning to and printing a dummy variable to ensure volatility. Each benchmark is an average of 3 runs.
 
-Runs for which cpplex's speed gains over C++ are bolded.
+Runs for which cpplex demonstrates speed gains over C++ are bolded.
 
 .. list-table::
    :widths: 25 25 25
@@ -75,7 +75,7 @@ Runs for which cpplex's speed gains over C++ are bolded.
    * - :code:`acos`
      - 0.906s
      - 42.850s
-  * - :code:`atan`
+   * - :code:`atan`
      - 0.901s
      - 25.061s
    * - :code:`sinh`
@@ -93,6 +93,6 @@ Runs for which cpplex's speed gains over C++ are bolded.
    * - :code:`acosh`
      - 0.917s
      - 43.233s
-  * - :code:`atanh`
-     - 0.908s
-     - 25.853s
+   * - :code:`atanh`
+     - **0.908s**
+     - **25.853s**
