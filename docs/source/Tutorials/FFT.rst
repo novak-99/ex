@@ -117,7 +117,7 @@ Output:
     -5.98385 - 4.25325j
     6 + 6j
 
-Both transforms are automatically set to being of type 2. You can change this by modifying the optional :code:`type` parameter. Types 1-4 are available for both DST and DCT.
+Both transforms are automatically set to being type 2. You can change this by modifying the optional :code:`type` parameter. Types 1-4 are available for both DST and DCT.
 
 .. code-block:: cpp
 
