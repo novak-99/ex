@@ -29,7 +29,7 @@ The discrete sine transform performs the following operation:
     \DeclareMathOperator\H{H}
     X_k = \sum_{n = 0}^{N - 1}x_n \sin[\frac{\pi}{N}(n + \frac{1}{2})(k + 1)] \quad k = 0, \ldots, n-1,
 
-The formula slightly modified depending on the type.
+The formula is slightly modified depending on the type.
 
 **Example**
 
