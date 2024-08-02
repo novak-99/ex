@@ -21,7 +21,7 @@ cos
 The cos function of a complex number is defined as:
 
 .. math::
-   \sin z = \cos x \cosh y + i\sin x \sinh y
+   \cos z = \cos x \cosh y + i\sin x \sinh y
 
 for :math:`\Re(z) = x` and :math:`\Im(z) = y`.
 
