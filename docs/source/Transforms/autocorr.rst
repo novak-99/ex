@@ -2,7 +2,7 @@
 autocorr
 =====
 
-.. cpp:function:: constexpr Complex autocorr(Complex (*f)(Complex) noexcept
+.. cpp:function:: constexpr Complex autocorr(Complex (*f)(Complex)) noexcept
 
    Performs the auto-correlation operation [1]_ on two complex functions. 
 
