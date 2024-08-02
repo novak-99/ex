@@ -4,7 +4,7 @@ cos
 
 .. cpp:function:: constexpr Complex cos(const Complex& z) noexcept
 
-   Returns the complex sin [1]_ of a complex number :math:`z`.
+   Returns the complex cos [1]_ of a complex number :math:`z`.
 
 **Parameters**
 
