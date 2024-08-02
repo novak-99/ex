@@ -26,7 +26,7 @@ The full list of discrete distributions is available in the documentation, but f
 .. code-block:: cpp
 
     #include <DiscreteDistribution/DiscreteDistribution.hpp>
-    #include <PoissonDistribution/PoissonDistribution.hpp>
+    #include <DiscreteDistribution/PoissonDistribution.hpp>
     #include <Complex/Complex.hpp>
     #include <iostream>
     
@@ -47,7 +47,7 @@ Let's call the PMF for this Poisson distribution for a complex input we provide:
 .. code-block:: cpp
 
     #include <DiscreteDistribution/DiscreteDistribution.hpp>
-    #include <PoissonDistribution/PoissonDistribution.hpp>
+    #include <DiscreteDistribution/PoissonDistribution.hpp>
     #include <Complex/Complex.hpp>
     #include <iostream>
 
@@ -77,7 +77,7 @@ We can similarly implement a continuous distirbution in cpplex, and in this exam
 .. code-block:: cpp
 
     #include <ContinuousDistribution/ContinuousDistribution.hpp>
-    #include <LogisticDistribution/LogisticDistribution.hpp>
+    #include <ContinuousDistribution/LogisticDistribution.hpp>
     #include <Complex/Complex.hpp>
     #include <iostream>
     
