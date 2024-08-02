@@ -48,6 +48,10 @@ operators
 
         A complex number. 
 
+   .. cpp:var:: const double alpha
+
+        A real number. 
+
 **Returns**
 
     .. cpp:type:: Complex&
