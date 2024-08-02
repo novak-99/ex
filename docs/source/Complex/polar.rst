@@ -4,7 +4,7 @@ polar
 
 .. cpp:function:: constexpr double polar(const double r, const double theta) noexcept
 
-   Returns a complex number given a magnitude :math:`r` and a phase angle :math:`theta`.
+   Returns a complex number given a magnitude :math:`r` and a phase angle :math:`\theta`.
 
 **Parameters**
 
