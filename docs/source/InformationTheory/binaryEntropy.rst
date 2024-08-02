@@ -18,7 +18,7 @@ binaryEntropy
 
         A real number.
 
-THe binary entropy of a probability :math:`p` is defined as follows:
+The binary entropy of a probability :math:`p` is defined as follows:
 
 .. math::
 
