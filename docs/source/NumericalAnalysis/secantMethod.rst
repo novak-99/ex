@@ -4,7 +4,7 @@ secantMethod
 
 .. cpp:function:: constexpr Complex secantMethod(Complex (*f)(Complex), const Complex& z0, const double alpha, const int epochs) noexcept
 
-   Performs the Secant method algortihm on a complex function.
+   Performs the secant method algortihm on a complex function.
 
 **Parameters**
 
