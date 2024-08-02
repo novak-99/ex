@@ -1,7 +1,7 @@
 Distributions
 =====
 
-Cpplex contains two distributions modules: one for discrete distributions, and one for continuous distributions. We will explore both in this tutorial.
+Cpplex contains two distribution modules: one for discrete distributions, and one for continuous distributions. We will explore both in this tutorial.
 
 We can first begin by creating a discrete distribution object.
 
@@ -21,7 +21,7 @@ We can first begin by creating a discrete distribution object.
 
 We will make it a pointer object so that we can construct a polymorphic implementation.
 
-THe full list of discrete distributions is available in the documentation, but for this tutorial, we can select the poisson distribution as an example. Don't forget to include the corresponding header file for the distribution you choose.
+The full list of discrete distributions is available in the documentation, but for this tutorial, we can select the poisson distribution as an example. Don't forget to include the corresponding header file for the distribution you choose.
 
 .. code-block:: cpp
 
