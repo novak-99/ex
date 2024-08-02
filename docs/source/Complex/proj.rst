@@ -16,7 +16,7 @@ proj
 
         A complex number. 
 
-If :code:`z` is a complex infinity, the function returns :code:`Complex(INF, 0.0)` or :code:`Complex(INF, -0.0)`, with the sign bit on the zero corresponding to the sign of :math:`\Im(z)` Otherwise, :code:`z` is returned.
+If :code:`z` is a complex infinity, the function returns :code:`Complex(INF, 0.0)` or :code:`Complex(INF, -0.0)`, with the sign bit on the zero corresponding to the sign of :math:`\Im(z)`. Otherwise, :code:`z` is returned.
 
 **Example**
 
