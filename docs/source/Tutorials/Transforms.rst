@@ -43,7 +43,7 @@ Output:
     0.545648 + 0j
 
 
-The true value is :math:`0.54564136\ldots`. 
+The true value is :math:`0.54564136 \ldots`
 
 You may also specify the optional argument :code:`a` which corresponds to the Laplace transform of a function :math:`f(az)`:
 
@@ -66,7 +66,7 @@ Output:
 
     0.341348 + 0j
 
-The true value is :math:`0.34135092\ldots`.
+The true value is :math:`0.34135092 \ldots`
 
 This module also features continuous versions of the discrete transforms featured in the signal module. For example, the continuous convolution transform, defined as:
 
