@@ -29,11 +29,11 @@ integral
 
     .. cpp:var:: const std::vector<Complex (*)(Complex)>& fargs
 
-        Optional list of function arguments if needed for use of the integrand.
+        Optional list of function arguments if needed for use by the integrand.
 
     .. cpp:var:: const std::vector<Complex>& args
 
-        Optional list of variable arguments if needed for use of the integrand.
+        Optional list of variable arguments if needed for use by the integrand.
 
 **Returns**
 
