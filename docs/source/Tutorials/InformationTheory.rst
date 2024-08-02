@@ -71,7 +71,7 @@ Output:
 
    1.38629
 
-The KL divergence is defined as how different one probability distribution :math:`P` is different from another distribution :math:`Q`, and is implemented as such:
+The KL divergence is defined as how different one probability distribution :math:`P` is from another distribution :math:`Q`, and is implemented as such:
 
 .. code-block:: cpp
 
