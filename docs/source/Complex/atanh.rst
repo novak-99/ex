@@ -22,7 +22,7 @@ The inverse tanh function of a complex number is defined as:
 
 .. math::
 
-   \atanh^{-1}z = \frac{1}{2}\log(\frac{1 + z}{1 - z})
+   \tanh^{-1}z = \frac{1}{2}\log(\frac{1 + z}{1 - z})
 
 **Example**
 
