@@ -23,7 +23,7 @@ The arg, or argument of a complex number, is defined as follows:
 .. math::
    \DeclareMathOperator\arg{arg}
    \DeclareMathOperator{\atantwo}{atan2}
-   \arg(z) = \atantwo (x, y)
+   \arg(z) = \atantwo ( y, x)
 
 
 **Example**
