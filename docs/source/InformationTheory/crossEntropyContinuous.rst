@@ -30,7 +30,7 @@ crossEntropy (Continuous)
 
         A real number.
 
-In information theory, the Jensen-Shannon divergence of two discrete random variables is defined as: 
+In information theory, the cross entropy of two continuous random variables is defined as: 
 
 .. math::
 
