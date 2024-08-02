@@ -18,7 +18,7 @@ tanh
 
         A complex number. 
 
-The sinh function of a complex number is defined as:
+The tanh function of a complex number is defined as:
 
 .. math::
    
