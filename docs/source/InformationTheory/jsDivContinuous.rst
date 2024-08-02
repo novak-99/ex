@@ -30,7 +30,7 @@ jsDiv (Continuous)
 
         A real number.
 
-In information theory, the Jensen-Shannon divergence of two continuous random variables is defined as: 
+In information theory, the Jensen-Shannon divergence of two continuous probability distributions is defined as: 
 
 .. math::
 

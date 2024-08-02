@@ -30,7 +30,7 @@ klDiv (Continuous)
 
         A real number.
 
-In information theory, the KL divergence of a continuous random variable is defined as: 
+In information theory, the KL divergence of two continuous probability distributions is defined as: 
 
 .. math::
 
