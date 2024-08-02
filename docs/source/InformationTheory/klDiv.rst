@@ -22,7 +22,7 @@ klDiv
 
         A real number.
 
-In information theory, the KL divergence of two discrete random variables is defined as: 
+In information theory, the KL divergence of two discrete probability distributions is defined as: 
 
 .. math::
 
