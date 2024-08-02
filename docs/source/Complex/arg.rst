@@ -22,8 +22,8 @@ The arg, or argument of a complex number, is defined as follows:
 
 .. math::
    \DeclareMathOperator\arg{arg}
-   \DeclareMathOperator{\atan2}{atan2}
-   \arg(z) = {\{atan2}}(x, y)
+   \DeclareMathOperator{\atantwo}{atan2}
+   \arg(z) = \atantwo (x, y)
 
 
 **Example**
