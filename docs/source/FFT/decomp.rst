@@ -2,7 +2,7 @@
 decomp
 =====
 
-.. cpp:function:: constexpr constexpr std::pair<std::vector<double>, std::vector<double>> decomp(const std::vector<Complex>& X){
+.. cpp:function:: constexpr std::pair<std::vector<double>, std::vector<double>> decomp(const std::vector<Complex>& X) noexcept
 
    Decomposes complex sequence into its real and imaginary components.
 
