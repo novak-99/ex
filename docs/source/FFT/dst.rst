@@ -4,7 +4,7 @@ dst
 
 .. cpp:function:: constexpr std::vector<Complex> dst(const std::vector<Complex>& X, int type = 2) noexcept
 
-   Calculates the discrete sine transform [1]_ of a complex sequence. 
+   Calculates the discrete sine transform [1]_ of a complex sequence. For all DST types, algorithms from Chan and Ho [2_] are used.
 
 **Parameters**
 
@@ -56,3 +56,4 @@ Output:
 
 .. [1] "Discrete sine transform", Wikipedia,
         https://en.wikipedia.org/wiki/Discrete_sine_transform
+.. [2] S.C. Chan, K. L. Ho. (1990). Direct methods for computing discrete sinusoidal transforms. IEE Proceedings F (Radar and Signal Processing), 137(6), 433-442(9). https://digital-library.theiet.org/content/journals/10.1049/ip-f-2.1990.0063
