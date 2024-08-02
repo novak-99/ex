@@ -4,7 +4,7 @@ inner
 
 .. cpp:function:: constexpr Complex inner(Complex (*f)(Complex), Complex (*g)(Complex), const Complex& z, const Complex& a, const Complex& b) noexcept
 
-   Performs the cross-correlation operation [1]_ on two complex functions. 
+   Performs the inner product operation [1]_ on two complex functions. 
 
 **Parameters**
 
