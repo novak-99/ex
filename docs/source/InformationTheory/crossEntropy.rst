@@ -22,7 +22,7 @@ crossEntropy
 
         A real number.
 
-In information theory, the cross-entropy of two discrete random variables is defined as: 
+In information theory, the cross-entropy of two discrete probability distributions is defined as: 
 
 .. math::
 
