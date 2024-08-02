@@ -2,7 +2,7 @@
 conj
 =====
 
-.. cpp:function:: constexpr std::vector<double> probNorm(const std::vector<double>& X){
+.. cpp:function:: constexpr std::vector<double> conj(const std::vector<double>& X) noexcept
 
    Returns the conjugate of a complex sequence.
 
