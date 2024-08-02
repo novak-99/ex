@@ -29,7 +29,7 @@ The discrete cosine transform performs the following operation:
     \DeclareMathOperator\H{H}
     X_k = \sum_{n = 0}^{N - 1}x_n \cos[\frac{\pi}{N}(n + \frac{1}{2})k] \quad k = 0, \ldots, n-1,
 
-The formula slightly modified depending on the type.
+The formula slightly modified depending on the type. DCT type 4 was implemented using the algorithm described here [2]_.
 
 **Example**
 
@@ -56,3 +56,4 @@ Output:
 
 .. [1] "Discrete cosine transform", Wikipedia,
         https://en.wikipedia.org/wiki/Discrete_cosine_transform
+.. [2] https://github.com/ARM-software/CMSIS_4/blob/master/CMSIS/DSP_Lib/Source/TransformFunctions/arm_dct4_f32.c
