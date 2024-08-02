@@ -18,6 +18,8 @@ dht
 
         A complex sequence.
 
+Cpplex extends the Hilbert transform to accept complex sequences using the method described here [2]_.
+
 **Example**
 
 .. code-block:: cpp
@@ -43,3 +45,4 @@ Output:
 
 .. [1] "Hilbert transform", Wikipedia,
         https://en.wikipedia.org/wiki/Hilbert_transform
+.. [2] https://dsp.stackexchange.com/questions/29263/is-hilbert-transform-not-defined-for-complex-signals
