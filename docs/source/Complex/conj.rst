@@ -4,7 +4,7 @@ conj
 
 .. cpp:function:: constexpr double conj(const Complex& z) noexcept
 
-   Returns the complex conjugates [1]_ of a complex number :math:`z`.
+   Returns the complex conjugate [1]_ of a complex number :math:`z`.
 
 **Parameters**
 
