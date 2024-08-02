@@ -112,6 +112,10 @@ operators
 
         A complex number. 
 
+   .. cpp:var:: const double alpha
+
+        A real number. 
+
    .. cpp:var:: std::ostream& ostream
 
         An output stream object.
