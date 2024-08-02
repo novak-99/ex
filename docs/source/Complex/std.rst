@@ -12,7 +12,7 @@ std
 
         A standard C++ complex object.
 
-Gets the imaginary component of the complex object.
+Converts a standard C++ complex number to a cpplex complex number.
 
 **Example**
 
