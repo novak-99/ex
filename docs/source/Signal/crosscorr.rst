@@ -33,6 +33,8 @@ The discrete cross-correlation operation performs the following operation on two
 
 Undefined elements :math:`X[i]` and :math:`Y[j]` are simply set to :math:`0`. The implementation is made to be of order :math:`O(n\log n)` by using the FFT and IFFT operations. 
 
+The algorithm described here [2_] was used.
+
 **Example**
 
 .. code-block:: cpp
@@ -64,3 +66,4 @@ Output:
 
 .. [1] "Cross-correlation", Wikipedia,
         https://en.wikipedia.org/wiki/Cross-correlation
+.. [2] https://dsp.stackexchange.com/questions/736/how-do-i-implement-cross-correlation-to-prove-two-audio-files-are-similar
