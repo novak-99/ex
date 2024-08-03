@@ -18,7 +18,7 @@ binom
 
 **Returns**
 
-    .. cpp:var:: int
+    .. cpp:type:: int
 
         A positive number. 
 
