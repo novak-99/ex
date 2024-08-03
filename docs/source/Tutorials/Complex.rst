@@ -143,6 +143,6 @@ Output:
 
 There are, however, many, many more of these functions available in the complex module. The full list with more details on each function is available in the documentation.
 
-Finally, to complex any C++ code which uses the cpplex module, simply run the following command:
+Finally, to compile any C++ code which uses the cpplex module, simply run the following command:
 
 :code:`g++ main.cpp -I cpplex -O3 -Wall -o main.o -std=c++2b`
