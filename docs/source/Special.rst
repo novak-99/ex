@@ -3,7 +3,7 @@ Special
 
 This module implements various special mathematical functions for complex inputs. 
 
-Defined in header :code:`<Special/Special.hpp>`.
+Defined in header :code:`<Special.hpp>`.
 
 Functions
 --------

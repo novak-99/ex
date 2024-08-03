@@ -3,7 +3,7 @@ NumericalAnalysis
 
 This module implements various functions important to complex analysis, including differentiation, integration, and root-finding.
 
-Defined in header :code:`<NumericalAnalysis/NumericalAnalysis.hpp>`.
+Defined in header :code:`<NumericalAnalysis.hpp>`.
 
 Functions
 --------

@@ -3,7 +3,7 @@ FFT
 
 This module implements various discrete transforms, including the FFT.
 
-Defined in header :code:`<FFT/FFT.hpp>`.
+Defined in header :code:`<FFT.hpp>`.
 
 Functions
 --------

@@ -7,8 +7,8 @@ Let's begin by importing the correct header file and creating a function to diff
 
 .. code-block:: cpp
 
-    #include <NumericalAnalysis/NumericalAnalysis.hpp>
-    #include <Complex/Complex.hpp>
+    #include <NumericalAnalysis.hpp>
+    #include <Complex.hpp>
     #include <iostream>
 
     Complex f(Complex z) {
@@ -24,8 +24,8 @@ We have just defined a complex function :math:`f(z) = z^2`. You may also define 
 
 .. code-block:: cpp
 
-    #include <NumericalAnalysis/NumericalAnalysis.hpp>
-    #include <Complex/Complex.hpp>
+    #include <NumericalAnalysis.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     
     int main(){
@@ -38,8 +38,8 @@ We may differentiate the function above and evaluate it at the point :math:`z = 
 
 .. code-block:: cpp
 
-    #include <NumericalAnalysis/NumericalAnalysis.hpp>
-    #include <Complex/Complex.hpp>
+    #include <NumericalAnalysis.hpp>
+    #include <Complex.hpp>
     #include <iostream>
 
     Complex f(Complex z) {
@@ -61,8 +61,8 @@ We may also integrate this function from :math:`a = 0` to :math:`b = 1 + 1i`:
 
 .. code-block:: cpp
 
-    #include <NumericalAnalysis/NumericalAnalysis.hpp>
-    #include <Complex/Complex.hpp>
+    #include <NumericalAnalysis.hpp>
+    #include <Complex.hpp>
     #include <iostream>
 
     Complex f(Complex z) {
@@ -84,13 +84,13 @@ Also important in complex analysis are Taylor series approximations, which appro
 
 .. code-block:: cpp
 
-    #include <NumericalAnalysis/NumericalAnalysis.hpp>
-    #include <Complex/Complex.hpp>
+    #include <NumericalAnalysis.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     using namespace std::complex_literals; // for C++'s literals
     
-    #include <NumericalAnalysis/NumericalAnalysis.hpp>
-    #include <Complex/Complex.hpp>
+    #include <NumericalAnalysis.hpp>
+    #include <Complex.hpp>
     #include <iostream>
 
     Complex f(Complex z) {
@@ -118,8 +118,8 @@ Finally, the numerical analysis module contains tools for root-finding and optim
 
 .. code-block:: cpp
 
-    #include <NumericalAnalysis/NumericalAnalysis.hpp>
-    #include <Complex/Complex.hpp>
+    #include <NumericalAnalysis.hpp>
+    #include <Complex.hpp>
     #include <iostream>
 
     Complex f(Complex z) {

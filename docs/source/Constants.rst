@@ -3,7 +3,7 @@ Constants
 
 This module defines various mathematical constants.
 
-Defined in header :code:`<Constants/Constants.hpp>`.
+Defined in header :code:`<Constants.hpp>`.
 
 
 .. **Variables**

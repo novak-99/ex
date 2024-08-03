@@ -8,7 +8,7 @@ We can first begin by creating a discrete distribution object.
 .. code-block:: cpp
 
     #include <DiscreteDistribution/DiscreteDistribution.hpp>
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
 
     std::vector
@@ -27,7 +27,7 @@ The full list of discrete distributions is available in the documentation, but f
 
     #include <DiscreteDistribution/DiscreteDistribution.hpp>
     #include <DiscreteDistribution/PoissonDistribution.hpp>
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     
     int main(){
@@ -48,7 +48,7 @@ Let's call the PMF for this Poisson distribution for a complex input we provide:
 
     #include <DiscreteDistribution/DiscreteDistribution.hpp>
     #include <DiscreteDistribution/PoissonDistribution.hpp>
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
 
     int main(){
@@ -78,7 +78,7 @@ We can similarly implement a continuous distirbution in cpplex, and in this exam
 
     #include <ContinuousDistribution/ContinuousDistribution.hpp>
     #include <ContinuousDistribution/LogisticDistribution.hpp>
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     
     int main(){

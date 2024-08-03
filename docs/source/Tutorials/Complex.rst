@@ -7,7 +7,7 @@ Let's begin by importing the correct header file and creating a complex object:
 
 .. code-block:: cpp
 
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     
     int main(){
@@ -22,7 +22,7 @@ If you prefer to use complex literals, you may either use cpplex's complex liter
 
 .. code-block:: cpp
 
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <complex>
     #include <iostream>
     using namespace std::complex_literals; // for C++'s literals
@@ -38,7 +38,7 @@ You can do the same operations with complex numbers as with any other numerical 
 
 .. code-block:: cpp
 
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     using namespace std::complex_literals; // for C++'s literals
     
@@ -59,7 +59,7 @@ You may also :code:`cin` a complex number just as easily:
 
 .. code-block:: cpp
 
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     using namespace std::complex_literals; // for C++'s literals
     
@@ -87,7 +87,7 @@ Various arithmetic operations are also supported:
 
 .. code-block:: cpp
 
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     using namespace std::complex_literals; // for C++'s literals
     
@@ -117,7 +117,7 @@ The complex module also contains various useful non-member functions that can ai
 
 .. code-block:: cpp
 
-    #include <Complex/Complex.hpp>
+    #include <Complex.hpp>
     #include <iostream>
     using namespace std::complex_literals; // for C++'s literals
     
