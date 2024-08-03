@@ -20,7 +20,7 @@ Variables
 
 .. cpp:var:: const Complex li2
 
-    Constant for :math:`\DeclareMathOperator\Li{Li} \Li(2)`. Approximately :math:`1.04516378`.
+    Constant for :math:`\DeclareMathOperator\li{li} \li(2)`. Approximately :math:`1.04516378`.
 
 .. cpp:var:: const Complex eulerGamma
 
