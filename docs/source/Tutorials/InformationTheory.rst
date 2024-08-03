@@ -128,9 +128,11 @@ A continuous version of the KL divergence can also be easily implemented:
     #include <vector>
     
     int main(){
-        auto f = [](Complex t) { return exp(-t * t); }; // Gaussian function.
-        auto g = [](Complex t) { return exp(-t * t); }; // Gaussian function. 
-        std::cout << klDiv(f, g, NINF.real(), INF.real()) << "\n"; // Should be ~ 0 (epsilon value included in logs may influence precision).
+        auto fRe = [](Complex t) { return exp(-t * t); }; // Gaussian function.
+        auto fIm = [](Complex t) { return exp(-t * t); }; // Gaussian function.
+        auto gRe = [](Complex t) { return exp(-t * t); }; // Gaussian function. 
+        auto gIm = [](Complex t) { return exp(-t * t); }; // Gaussian function. 
+        std::cout << klDiv(fRe, fIm, gRe, gIm, NINF.real(), INF.real()) << "\n"; // Should be ~ 0 (epsilon value included in logs may influence precision).
 
        return 0;
     }
