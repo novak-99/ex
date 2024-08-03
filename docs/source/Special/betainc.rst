@@ -29,7 +29,7 @@ betainc
 The incomplete gamma function is a generalization of the beta function defined as:
 
 .. math::
-   B(x; a, x) = \int_{0}^{x} t^{a - 1}(1 - t)^{b - 1}dt
+   B(x; a, b) = \int_{0}^{x} t^{a - 1}(1 - t)^{b - 1}dt
 
 
 **Example**
