@@ -2,7 +2,7 @@
 jsDiv (Continuous)
 =====
 
-.. cpp:function:: constexpr double klDiv(Complex (*f)(Complex), Complex (*g)(Complex), double a, double b) noexcept
+.. cpp:function:: constexpr double jsDiv(Complex (*fr)(Complex), Complex (*fi)(Complex), Complex (*gr)(Complex), Complex (*gi)(Complex), double a, double b) noexcept
 
    Calculates the continuous Kullback-Leibler (KL) divergence [1]_ of a function.  
 
@@ -43,15 +43,17 @@ where :math:`M = \frac{1}{2}(P + Q)` and where `D(P || Q)` is the Kullback-Leibl
 
 .. code-block:: cpp
 
-    auto pdf1 = [](Complex z) { return exp(-z * z); }; // Example PDF 1. 
-    auto pdf2 = [](Complex z) { return exp(-z * z); }; // Example PDF 2. 
-    std::cout << klDiv(pdf1, pdf2, -INF.real(), INF.real()) << "\n";
+    auto pdfRe1 = [](Complex z) { return exp(-z * z); }; // Example real PDF 1. 
+    auto pdfRe2 = [](Complex z) { return exp(-z * z); }; // Example real PDF 2. 
+    auto pdfIm1 = [](Complex z) { return exp(-z * z); }; // Example im PDF 1. 
+    auto pdfIm2 = [](Complex z) { return exp(-z * z); }; // Example im PDF 2. 
+    std::cout << jsDiv(pdfRe1, pdfIm1, pdfRe2, pdfIm2, -INF.real(), INF.real()) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-    -8.03496e-08
+    -1.60699e-07
 
 **References**
 

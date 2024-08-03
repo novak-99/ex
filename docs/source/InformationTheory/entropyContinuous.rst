@@ -2,15 +2,19 @@
 entropy (Continuous)
 =====
 
-.. cpp:function:: constexpr double entropy(Complex (*f)(Complex), double a, double b)
+.. cpp:function:: constexpr double entropy(Complex (*fr)(Complex), Complex (*fi)(Complex), double a, double b) noexcept
 
    Calculates the continuous entropy [1]_ of a function.  
 
 **Parameters**
 
-    .. cpp:var:: Complex (*f)(Complex)
+    .. cpp:var:: Complex (*fr)(Complex)
 
-        The PDF of the distribution.
+        The PDF of the real distribution.
+
+    .. cpp:var:: Complex (*fi)(Complex)
+
+        The PDF of the imaginary distribution.
 
     .. cpp:var:: double a
 
@@ -37,16 +41,17 @@ In information theory, the entropy of a continuous random variable is defined as
 
 .. code-block:: cpp
 
-    auto pdf = [](Complex z) { return exp(-z * z); }; // Example PDF. 
-    std::cout << entropy(pdf, -INF.real(), INF.real()) << "\n";
-    std::cout << -std::sqrt(M_PI) / 2 << "\n";
+    auto pdfRe = [](Complex z) { return exp(-z * z); }; // Example PDF. 
+    auto pdfIm = [](Complex z) { return exp(-z * z); }; // Example PDF. 
+    std::cout << entropy(pdfRe, pdfIm, -INF.real(), INF.real()) << "\n";
+    std::cout << -std::sqrt(M_PI) << "\n";
 
 Output:
 
 .. code-block:: cpp
 
-    -0.88551
-    -0.886227
+    -1.77102
+    -1.77245
 
 **References**
 
