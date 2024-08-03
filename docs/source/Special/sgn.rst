@@ -4,7 +4,7 @@ sgn
 
 .. cpp:function:: constexpr double sgn(const double x) noexcept
 
-   Evaluates the sign function [1]_ for a complex input.
+   Evaluates the sign function [1]_ for a real input.
 
 **Parameters**
 
