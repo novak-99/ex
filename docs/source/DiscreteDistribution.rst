@@ -3,9 +3,9 @@ DiscreteDistribution
 
 .. cpp:class:: DiscreteDistribution
 
-   The generic cpplex continuous distribution type.
+   The generic cpplex discrete distribution type.
 
-This module implements various complex continuous distributions.
+This module implements various complex discrete distributions.
 
 Defined in header :code:`<DiscreteDistribution/DiscreteDistribution.hpp>`.
 
