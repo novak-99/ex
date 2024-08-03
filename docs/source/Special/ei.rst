@@ -22,7 +22,7 @@ The exponential integral for real inputs is defined as:
 
 .. math::
    \DeclareMathOperator\Ei{Ei}
-   \Ei(z) = -\int_{-x}^{\infty} \frac{e^{-t}}{t}dt
+   \Ei(x) = -\int_{-x}^{\infty} \frac{e^{-t}}{t}dt
 
 The definition can be extended to complex numbers as follows [2]_: 
 
