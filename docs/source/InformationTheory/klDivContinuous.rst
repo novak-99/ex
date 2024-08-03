@@ -8,13 +8,21 @@ klDiv (Continuous)
 
 **Parameters**
 
-    .. cpp:var:: Complex (*f)(Complex)
+    .. cpp:var:: Complex (*fr)(Complex)
 
-        The PDF of the first distribution. 
+        The PDF of the first real distribution.
 
-    .. cpp:var:: Complex (*f)(Complex)
+    .. cpp:var:: Complex (*fi)(Complex)
 
-        The PDF of the second distribution.
+        The PDF of the first imaginary distribution.
+
+    .. cpp:var:: Complex (*gr)(Complex)
+
+        The PDF of the second real distribution.
+
+    .. cpp:var:: Complex (*gi)(Complex)
+
+        The PDF of the second imaginary distribution.
 
     .. cpp:var:: double a
 
