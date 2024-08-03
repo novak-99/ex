@@ -4,7 +4,7 @@ erfcx
 
 .. cpp:function:: constexpr Complex erfcx(const Complex& z) noexcept
 
-   Evaluates the complementary erf function, erfc. 
+   Evaluates the scaled complementary erf function, erfcx. 
 
 **Parameters**
 
