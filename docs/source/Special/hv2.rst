@@ -25,7 +25,7 @@ hv2
 The Hankel functions of the second kind are defined as:
 
 .. math::
-   H_{n}^{(1)}(z) = J_n(z) - iY_n(z)
+   H_{n}^{(2)}(z) = J_n(z) - iY_n(z)
 
 **Example**
 
