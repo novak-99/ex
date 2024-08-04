@@ -3,7 +3,7 @@ Complex
 
 Many of cpplex's operations are many times faster than those in standard C++.
 
-While this is mostly due to C++'s NaN-checking, it is important to note that for most use cases, this is unnecessary, and causes many functions to perform very slowly.
+While this is mostly due to C++'s NaN checking, it is important to note that for most use cases,  NaN checking is unnecessary and causes many functions to perform very slowly.
 
 The following table shows a list of results of benchmarks comparing operations for :code:`cpplex::Complex` and :code:`std::complex`. Please note that for operations with multiple definitions, the definition where all arguments are complex numbers is used for testing.
 
