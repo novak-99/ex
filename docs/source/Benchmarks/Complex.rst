@@ -7,7 +7,7 @@ While this is mostly due to standard C++'s NaN checking, it is important to note
 
 The following table shows a list of benchmarks comparing operations on cpplex's :code:`cpplex::Complex` type and standard C++'s :code:`std::complex` type. Please note that for operations with multiple definitions, the one with all complex arguments is used for testing.
 
-Each benchmark performs the operation :code:`N = 1e+9` times while compound assigning the result to and printing a dummy variable to ensure volatility. Each benchmark is an average of 3 runs.
+Each benchmark performs the operation :code:`N = 1e+9` times while compound assigning the result to a dummy variable and printing it to ensure volatility. Each benchmark is an average of 3 runs.
 
 Runs for which cpplex demonstrates nonnegligible speed gains over standard C++ are bolded.
 
