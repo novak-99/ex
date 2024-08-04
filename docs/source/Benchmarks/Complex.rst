@@ -9,7 +9,7 @@ The following table shows a list of benchmarks comparing operations on cpplex's 
 
 Each benchmark performs the operation :code:`N = 1e+9` times while compound assigning the result to a dummy variable and printing it to ensure volatility. Each benchmark is an average of 3 runs.
 
-Runs for which cpplex demonstrates nonnegligible speed gains over standard C++ are bolded.
+Bolded runs indicate nonnegligible speed gains by cpplex over standard C++.
 
 .. list-table::
    :widths: 25 25 25
