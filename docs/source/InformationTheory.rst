@@ -1,7 +1,7 @@
 Information Theory
 =====
 
-This module implements various functions related to information theory. In particular, it features various entropy functions.
+This module implements various functions related to information theory, such as entropy functions.
 
 Defined in header :code:`<InformationTheory.hpp>`.
 
