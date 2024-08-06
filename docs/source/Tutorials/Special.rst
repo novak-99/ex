@@ -3,12 +3,12 @@ Special
 
 The special module includes various special mathematical functions for complex inputs.
 
-The gamma function, defined as:
+The gamma function, defined as
 
 .. math::
    \Gamma(z) = \int_{0}^{\infty} t^{z - 1}e^{-t}dt
 
-is an important function in complex analysis, and various related functions are also included:
+is an important function in complex analysis. In addition, various related functions are included below.
 
 .. code-block:: cpp
 

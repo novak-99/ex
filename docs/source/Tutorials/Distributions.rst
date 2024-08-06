@@ -1,7 +1,7 @@
 Distributions
 =====
 
-Cpplex contains two distribution modules: one for discrete distributions, and one for continuous distributions. We will explore both in this tutorial.
+Cpplex contains two distribution modules: one for discrete distributions and one for continuous distributions. We will explore both in this tutorial.
 
 We can first begin by creating a discrete distribution object.
 

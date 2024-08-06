@@ -16,7 +16,7 @@ Let's first define a function :math:`f(z) = e^{-z^2}`:
         return 0; 
     }
 
-The Laplace transform is one of the most useful and commonly used continuous integral transforms, and is used in fields such as differential equations. It is defined as the following:
+The Laplace transform is one of the most useful and commonly used continuous integral transforms and is used in fields such as differential equations. It is defined as the following:
 
 .. math::
    \mathcal{L}\{f\}(z) = \int_{0}^{\infty}f(t)e^{-zt}dt
