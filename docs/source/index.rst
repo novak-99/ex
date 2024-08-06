@@ -1,7 +1,7 @@
 Cpplex — making complex analysis simple! 
 ===================================
 
-Complex analysis in C++ is slow and lackluster.
+Complex analysis in C++ is slow and lacks a lot of features.
 
 Cpplex makes operations with complex numbers a lot faster and adds much more functionality!
 
